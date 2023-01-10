@@ -1,7 +1,7 @@
 
 ### 博客引导页 blog guide page
 
-powered by &copy; 流浪舟 Wandering boat
+powered by &copy; 江南骚年 JNSN
 
 #### 简单又精美的博客引导页面
 Simple and beautiful blog guide page
