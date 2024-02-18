@@ -6,4 +6,4 @@ Allow:/
 Allow: /baidusitemap.xml
  
 #sitemap
-Sitemap: https://index.maliaoblog.cn/baidusitemap.xml
+Sitemap: https://wiki3.cn/baidusitemap.xml
