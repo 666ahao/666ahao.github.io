@@ -12,7 +12,7 @@
   <meta name="description" content="珍爱生命，远离大学">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Zblog">
-<meta property="og:url" content="https://666ahao.github.io/666ahao/page/4/index.html">
+<meta property="og:url" content="https://666ahao.github.io/page/4/index.html">
 <meta property="og:site_name" content="Zblog">
 <meta property="og:description" content="珍爱生命，远离大学">
 <meta property="og:locale" content="zh_CN">
@@ -25,7 +25,7 @@
 <meta property="article:tag" content="沧海一粟博客">
 <meta name="twitter:card" content="summary">
   
-  <link rel="icon" href="/666ahao/css/images/favicon.ico">
+  <link rel="icon" href="/css/images/favicon.ico">
   
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
@@ -40,19 +40,19 @@
 
   <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
   
-<link rel="stylesheet" href="/666ahao/css/style.css">
+<link rel="stylesheet" href="/css/style.css">
 
 
   
-<script src="/666ahao/js/jquery-3.1.1.min.js"></script>
+<script src="/js/jquery-3.1.1.min.js"></script>
 
 
   <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="/666ahao/css/bootstrap.css" >
-  <link rel="stylesheet" href="/666ahao/css/fashion.css" >
-  <link rel="stylesheet" href="/666ahao/css/glyphs.css" >
+  <link rel="stylesheet" href="/css/bootstrap.css" >
+  <link rel="stylesheet" href="/css/fashion.css" >
+  <link rel="stylesheet" href="/css/glyphs.css" >
 
-<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/666ahao/atom.xml" title="Zblog" type="application/atom+xml">
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Zblog" type="application/atom+xml">
 </head>
 
 
@@ -61,16 +61,38 @@
 
 
   
+  
+  <div class="site-header-image">
+    <img id="originBg" width="100%" alt="Hike News" src="">
+  </div>
+
+  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
+    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
+  </div>
+
+  <script>
+        var imgUrls = "css/images/pose01.jpg,https://source.unsplash.com/collection/954550/1920x1080,https://source.unsplash.com/collection/954550/1920x1081".split(",");
+        var random = Math.floor((Math.random() * imgUrls.length ));
+        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+          document.getElementById("originBg").src=imgUrls[random];
+          document.getElementById("blurBg").src=imgUrls[random];
+        } else {
+          document.getElementById("originBg").src='/' + imgUrls[random];
+          document.getElementById("blurBg").src='/' + imgUrls[random];
+        }
+    </script>
+
+
 
 
 <header id="allheader" class="site-header" role="banner" 
-   >
+   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.3);"  >
   <div class="clearfix container">
       <div class="site-branding">
 
           <h1 class="site-title">
             
-              <a href="/666ahao/" title="Zblog" rel="home"> Zblog </a>
+              <a href="/" title="Zblog" rel="home"> Zblog </a>
             
           </h1>
           
@@ -85,17 +107,17 @@
             <div class="clearfix sf-menu">
               <ul id="main-nav" class="menu sf-js-enabled sf-arrows"  style="touch-action: pan-y;">
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="/"> <a class="" href="/666ahao/">首页</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="/"> <a class="" href="/">首页</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="archives"> <a class="" href="/666ahao/archives">归档</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="archives"> <a class="" href="/archives">归档</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="categories"> <a class="" href="/666ahao/categories">分类</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="categories"> <a class="" href="/categories">分类</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="tags"> <a class="" href="/666ahao/tags">标签</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="tags"> <a class="" href="/tags">标签</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="about"> <a class="" href="/666ahao/about">关于</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="about"> <a class="" href="/about">关于</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="friends"> <a class="" href="/666ahao/friends">友链</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="friends"> <a class="" href="/friends">友链</a> </li>
                     
               </ul>
             </div>
@@ -121,7 +143,7 @@
         
   
     <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/666ahao/2020/1104/">Java-IO(二)输入输出流体系</a>
+      <a class="article-title" href="/2020/1104/">Java-IO(二)输入输出流体系</a>
     </h1>
   
 
@@ -129,13 +151,13 @@
     
     <div class="article-meta">
       
-	<a href="/666ahao/2020/1104/" class="article-date">
+	<a href="/2020/1104/" class="article-date">
 	  <time datetime="2020-11-04T09:21:34.000Z" itemprop="datePublished">十一月 4, 2020</time>
 	</a>
 
       
 	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/666ahao/categories/java/">java</a>
+    <a class="article-category-link" href="/categories/java/">java</a>
  
       
     </div>
@@ -149,7 +171,7 @@
 
         
           <p class="article-more-link">
-            <a href="/666ahao/2020/1104/#more">阅读全文</a>
+            <a href="/2020/1104/#more">阅读全文</a>
           </p>
         </div>
       
@@ -157,11 +179,11 @@
     <footer class="entry-meta entry-footer">
       
 	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/666ahao/categories/java/">java</a>
+    <a class="article-category-link" href="/categories/java/">java</a>
 
       
   <span class="ico-tags"></span>
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/666ahao/tags/IO%E6%B5%81%E4%BD%93%E7%B3%BB/" rel="tag">IO流体系</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/666ahao/tags/java/" rel="tag">java</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/IO%E6%B5%81%E4%BD%93%E7%B3%BB/" rel="tag">IO流体系</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/" rel="tag">java</a></li></ul>
 
       
     </footer>
@@ -181,7 +203,7 @@
         
   
     <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/666ahao/2020/1101/">Java-IO流</a>
+      <a class="article-title" href="/2020/1101/">Java-IO流</a>
     </h1>
   
 
@@ -189,13 +211,13 @@
     
     <div class="article-meta">
       
-	<a href="/666ahao/2020/1101/" class="article-date">
+	<a href="/2020/1101/" class="article-date">
 	  <time datetime="2020-11-01T09:20:57.000Z" itemprop="datePublished">十一月 1, 2020</time>
 	</a>
 
       
 	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/666ahao/categories/java/">java</a>
+    <a class="article-category-link" href="/categories/java/">java</a>
  
       
     </div>
@@ -209,7 +231,7 @@
 
         
           <p class="article-more-link">
-            <a href="/666ahao/2020/1101/#more">阅读全文</a>
+            <a href="/2020/1101/#more">阅读全文</a>
           </p>
         </div>
       
@@ -217,11 +239,11 @@
     <footer class="entry-meta entry-footer">
       
 	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/666ahao/categories/java/">java</a>
+    <a class="article-category-link" href="/categories/java/">java</a>
 
       
   <span class="ico-tags"></span>
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/666ahao/tags/IO%E6%B5%81/" rel="tag">IO流</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/666ahao/tags/java/" rel="tag">java</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/IO%E6%B5%81/" rel="tag">IO流</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/" rel="tag">java</a></li></ul>
 
       
     </footer>
@@ -241,7 +263,7 @@
         
   
     <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/666ahao/2020/1021/">Java反射篇</a>
+      <a class="article-title" href="/2020/1021/">Java反射篇</a>
     </h1>
   
 
@@ -249,13 +271,13 @@
     
     <div class="article-meta">
       
-	<a href="/666ahao/2020/1021/" class="article-date">
+	<a href="/2020/1021/" class="article-date">
 	  <time datetime="2020-10-21T09:20:32.000Z" itemprop="datePublished">十月 21, 2020</time>
 	</a>
 
       
 	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/666ahao/categories/java/">java</a>
+    <a class="article-category-link" href="/categories/java/">java</a>
  
       
     </div>
@@ -269,7 +291,7 @@
 
         
           <p class="article-more-link">
-            <a href="/666ahao/2020/1021/#more">阅读全文</a>
+            <a href="/2020/1021/#more">阅读全文</a>
           </p>
         </div>
       
@@ -277,11 +299,11 @@
     <footer class="entry-meta entry-footer">
       
 	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/666ahao/categories/java/">java</a>
+    <a class="article-category-link" href="/categories/java/">java</a>
 
       
   <span class="ico-tags"></span>
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/666ahao/tags/java/" rel="tag">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/666ahao/tags/%E5%8F%8D%E5%B0%84/" rel="tag">反射</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/" rel="tag">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%8F%8D%E5%B0%84/" rel="tag">反射</a></li></ul>
 
       
     </footer>
@@ -301,7 +323,7 @@
         
   
     <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/666ahao/2020/1018/">Java类加载篇</a>
+      <a class="article-title" href="/2020/1018/">Java类加载篇</a>
     </h1>
   
 
@@ -309,13 +331,13 @@
     
     <div class="article-meta">
       
-	<a href="/666ahao/2020/1018/" class="article-date">
+	<a href="/2020/1018/" class="article-date">
 	  <time datetime="2020-10-18T09:19:51.000Z" itemprop="datePublished">十月 18, 2020</time>
 	</a>
 
       
 	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/666ahao/categories/java/">java</a>
+    <a class="article-category-link" href="/categories/java/">java</a>
  
       
     </div>
@@ -329,7 +351,7 @@
 
         
           <p class="article-more-link">
-            <a href="/666ahao/2020/1018/#more">阅读全文</a>
+            <a href="/2020/1018/#more">阅读全文</a>
           </p>
         </div>
       
@@ -337,11 +359,11 @@
     <footer class="entry-meta entry-footer">
       
 	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/666ahao/categories/java/">java</a>
+    <a class="article-category-link" href="/categories/java/">java</a>
 
       
   <span class="ico-tags"></span>
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/666ahao/tags/java/" rel="tag">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/666ahao/tags/%E7%B1%BB%E5%8A%A0%E8%BD%BD/" rel="tag">类加载</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/" rel="tag">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%B1%BB%E5%8A%A0%E8%BD%BD/" rel="tag">类加载</a></li></ul>
 
       
     </footer>
@@ -361,7 +383,7 @@
         
   
     <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/666ahao/2020/1016/">Java注解篇</a>
+      <a class="article-title" href="/2020/1016/">Java注解篇</a>
     </h1>
   
 
@@ -369,13 +391,13 @@
     
     <div class="article-meta">
       
-	<a href="/666ahao/2020/1016/" class="article-date">
+	<a href="/2020/1016/" class="article-date">
 	  <time datetime="2020-10-16T09:19:31.000Z" itemprop="datePublished">十月 16, 2020</time>
 	</a>
 
       
 	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/666ahao/categories/java/">java</a>
+    <a class="article-category-link" href="/categories/java/">java</a>
  
       
     </div>
@@ -389,7 +411,7 @@
 
         
           <p class="article-more-link">
-            <a href="/666ahao/2020/1016/#more">阅读全文</a>
+            <a href="/2020/1016/#more">阅读全文</a>
           </p>
         </div>
       
@@ -397,11 +419,11 @@
     <footer class="entry-meta entry-footer">
       
 	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/666ahao/categories/java/">java</a>
+    <a class="article-category-link" href="/categories/java/">java</a>
 
       
   <span class="ico-tags"></span>
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/666ahao/tags/java/" rel="tag">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/666ahao/tags/%E6%B3%A8%E8%A7%A3/" rel="tag">注解</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/" rel="tag">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%B3%A8%E8%A7%A3/" rel="tag">注解</a></li></ul>
 
       
     </footer>
@@ -421,7 +443,7 @@
         
   
     <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/666ahao/2020/1013/">Java泛型篇</a>
+      <a class="article-title" href="/2020/1013/">Java泛型篇</a>
     </h1>
   
 
@@ -429,13 +451,13 @@
     
     <div class="article-meta">
       
-	<a href="/666ahao/2020/1013/" class="article-date">
+	<a href="/2020/1013/" class="article-date">
 	  <time datetime="2020-10-13T09:19:13.000Z" itemprop="datePublished">十月 13, 2020</time>
 	</a>
 
       
 	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/666ahao/categories/java/">java</a>
+    <a class="article-category-link" href="/categories/java/">java</a>
  
       
     </div>
@@ -449,7 +471,7 @@
 
         
           <p class="article-more-link">
-            <a href="/666ahao/2020/1013/#more">阅读全文</a>
+            <a href="/2020/1013/#more">阅读全文</a>
           </p>
         </div>
       
@@ -457,11 +479,11 @@
     <footer class="entry-meta entry-footer">
       
 	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/666ahao/categories/java/">java</a>
+    <a class="article-category-link" href="/categories/java/">java</a>
 
       
   <span class="ico-tags"></span>
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/666ahao/tags/java/" rel="tag">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/666ahao/tags/%E6%B3%9B%E5%9E%8B/" rel="tag">泛型</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/" rel="tag">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%B3%9B%E5%9E%8B/" rel="tag">泛型</a></li></ul>
 
       
     </footer>
@@ -481,7 +503,7 @@
         
   
     <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/666ahao/2020/1012/">Java工具类</a>
+      <a class="article-title" href="/2020/1012/">Java工具类</a>
     </h1>
   
 
@@ -489,13 +511,13 @@
     
     <div class="article-meta">
       
-	<a href="/666ahao/2020/1012/" class="article-date">
+	<a href="/2020/1012/" class="article-date">
 	  <time datetime="2020-10-12T09:18:33.000Z" itemprop="datePublished">十月 12, 2020</time>
 	</a>
 
       
 	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/666ahao/categories/java/">java</a>
+    <a class="article-category-link" href="/categories/java/">java</a>
  
       
     </div>
@@ -517,7 +539,7 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
 
         
           <p class="article-more-link">
-            <a href="/666ahao/2020/1012/#more">阅读全文</a>
+            <a href="/2020/1012/#more">阅读全文</a>
           </p>
         </div>
       
@@ -525,11 +547,11 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
     <footer class="entry-meta entry-footer">
       
 	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/666ahao/categories/java/">java</a>
+    <a class="article-category-link" href="/categories/java/">java</a>
 
       
   <span class="ico-tags"></span>
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/666ahao/tags/%E5%B7%A5%E5%85%B7%E7%B1%BB/" rel="tag">工具类</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/666ahao/tags/%E9%9B%86%E5%90%88/" rel="tag">集合</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%B7%A5%E5%85%B7%E7%B1%BB/" rel="tag">工具类</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E9%9B%86%E5%90%88/" rel="tag">集合</a></li></ul>
 
       
     </footer>
@@ -549,7 +571,7 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
         
   
     <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/666ahao/2020/1011/">Java集合(四)-Map集合</a>
+      <a class="article-title" href="/2020/1011/">Java集合(四)-Map集合</a>
     </h1>
   
 
@@ -557,13 +579,13 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
     
     <div class="article-meta">
       
-	<a href="/666ahao/2020/1011/" class="article-date">
+	<a href="/2020/1011/" class="article-date">
 	  <time datetime="2020-10-11T09:17:50.000Z" itemprop="datePublished">十月 11, 2020</time>
 	</a>
 
       
 	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/666ahao/categories/java/">java</a>
+    <a class="article-category-link" href="/categories/java/">java</a>
  
       
     </div>
@@ -577,7 +599,7 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
 
         
           <p class="article-more-link">
-            <a href="/666ahao/2020/1011/#more">阅读全文</a>
+            <a href="/2020/1011/#more">阅读全文</a>
           </p>
         </div>
       
@@ -585,11 +607,11 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
     <footer class="entry-meta entry-footer">
       
 	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/666ahao/categories/java/">java</a>
+    <a class="article-category-link" href="/categories/java/">java</a>
 
       
   <span class="ico-tags"></span>
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/666ahao/tags/Map%E9%9B%86%E5%90%88/" rel="tag">Map集合</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/666ahao/tags/%E9%9B%86%E5%90%88/" rel="tag">集合</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Map%E9%9B%86%E5%90%88/" rel="tag">Map集合</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E9%9B%86%E5%90%88/" rel="tag">集合</a></li></ul>
 
       
     </footer>
@@ -609,7 +631,7 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
         
   
     <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/666ahao/2020/1009/">Java集合(三)-List和Queue集合</a>
+      <a class="article-title" href="/2020/1009/">Java集合(三)-List和Queue集合</a>
     </h1>
   
 
@@ -617,13 +639,13 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
     
     <div class="article-meta">
       
-	<a href="/666ahao/2020/1009/" class="article-date">
+	<a href="/2020/1009/" class="article-date">
 	  <time datetime="2020-10-09T13:25:27.000Z" itemprop="datePublished">十月 9, 2020</time>
 	</a>
 
       
 	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/666ahao/categories/java/">java</a>
+    <a class="article-category-link" href="/categories/java/">java</a>
  
       
     </div>
@@ -637,7 +659,7 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
 
         
           <p class="article-more-link">
-            <a href="/666ahao/2020/1009/#more">阅读全文</a>
+            <a href="/2020/1009/#more">阅读全文</a>
           </p>
         </div>
       
@@ -645,11 +667,11 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
     <footer class="entry-meta entry-footer">
       
 	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/666ahao/categories/java/">java</a>
+    <a class="article-category-link" href="/categories/java/">java</a>
 
       
   <span class="ico-tags"></span>
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/666ahao/tags/List/" rel="tag">List</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/666ahao/tags/Queue/" rel="tag">Queue</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/List/" rel="tag">List</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Queue/" rel="tag">Queue</a></li></ul>
 
       
     </footer>
@@ -669,7 +691,7 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
         
   
     <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/666ahao/2020/1003/">Java集合(二)-Set集合</a>
+      <a class="article-title" href="/2020/1003/">Java集合(二)-Set集合</a>
     </h1>
   
 
@@ -677,13 +699,13 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
     
     <div class="article-meta">
       
-	<a href="/666ahao/2020/1003/" class="article-date">
+	<a href="/2020/1003/" class="article-date">
 	  <time datetime="2020-10-03T14:26:07.000Z" itemprop="datePublished">十月 3, 2020</time>
 	</a>
 
       
 	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/666ahao/categories/java/">java</a>
+    <a class="article-category-link" href="/categories/java/">java</a>
  
       
     </div>
@@ -796,11 +818,11 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
     <footer class="entry-meta entry-footer">
       
 	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/666ahao/categories/java/">java</a>
+    <a class="article-category-link" href="/categories/java/">java</a>
 
       
   <span class="ico-tags"></span>
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/666ahao/tags/Set%E9%9B%86%E5%90%88/" rel="tag">Set集合</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/666ahao/tags/java/" rel="tag">java</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Set%E9%9B%86%E5%90%88/" rel="tag">Set集合</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/" rel="tag">java</a></li></ul>
 
       
     </footer>
@@ -816,7 +838,7 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
 
   <nav id="page-nav">
     
-    <a class="extend prev" rel="prev" href="/666ahao/page/3/">上一页</a><a class="page-number" href="/666ahao/">1</a><a class="page-number" href="/666ahao/page/2/">2</a><a class="page-number" href="/666ahao/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/666ahao/page/5/">5</a><a class="page-number" href="/666ahao/page/6/">6</a><span class="space">&hellip;</span><a class="page-number" href="/666ahao/page/8/">8</a><a class="extend next" rel="next" href="/666ahao/page/5/">下一页</a>
+    <a class="extend prev" rel="prev" href="/page/3/">上一页</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><a class="page-number" href="/page/6/">6</a><span class="space">&hellip;</span><a class="page-number" href="/page/8/">8</a><a class="extend next" rel="next" href="/page/5/">下一页</a>
   </nav>
 
 </section>
@@ -854,14 +876,14 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
             TAGS: '标签',
             UNTITLED: '(无标题)',
         },
-        ROOT_URL: '/666ahao/',
-        CONTENT_URL: '/666ahao/content.json',
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
     };
     window.INSIGHT_CONFIG = INSIGHT_CONFIG;
 })(window);
 </script>
 
-<script src="/666ahao/js/insight.js"></script>
+<script src="/js/insight.js"></script>
 
 
 </div>
@@ -884,7 +906,7 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
               <div class="widget-entry-summary" style="margin: 0;">
             
 
-              <h6 style="margin: 0;"><a href="/666ahao/2024/0118/">SpringBoot原理解析</a></h6>
+              <h6 style="margin: 0;"><a href="/2024/0118/">SpringBoot原理解析</a></h6>
               <span>一月 18, 2024</span>
             </div>
 
@@ -896,7 +918,7 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
               <div class="widget-entry-summary" style="margin: 0;">
             
 
-              <h6 style="margin: 0;"><a href="/666ahao/2023/1231/">Spring入门</a></h6>
+              <h6 style="margin: 0;"><a href="/2023/1231/">Spring入门</a></h6>
               <span>十二月 31, 2023</span>
             </div>
 
@@ -908,7 +930,7 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
               <div class="widget-entry-summary" style="margin: 0;">
             
 
-              <h6 style="margin: 0;"><a href="/666ahao/2023/1225/">mybatisplus入门</a></h6>
+              <h6 style="margin: 0;"><a href="/2023/1225/">mybatisplus入门</a></h6>
               <span>十二月 25, 2023</span>
             </div>
 
@@ -920,7 +942,7 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
               <div class="widget-entry-summary" style="margin: 0;">
             
 
-              <h6 style="margin: 0;"><a href="/666ahao/2023/1215/">MySQL入门</a></h6>
+              <h6 style="margin: 0;"><a href="/2023/1215/">MySQL入门</a></h6>
               <span>十二月 15, 2023</span>
             </div>
 
@@ -932,7 +954,7 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
               <div class="widget-entry-summary" style="margin: 0;">
             
 
-              <h6 style="margin: 0;"><a href="/666ahao/2023/1211/">linux正则表达式与三剑客</a></h6>
+              <h6 style="margin: 0;"><a href="/2023/1211/">linux正则表达式与三剑客</a></h6>
               <span>十二月 11, 2023</span>
             </div>
 
@@ -944,7 +966,7 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
               <div class="widget-entry-summary" style="margin: 0;">
             
 
-              <h6 style="margin: 0;"><a href="/666ahao/2023/1201/">Git入门</a></h6>
+              <h6 style="margin: 0;"><a href="/2023/1201/">Git入门</a></h6>
               <span>十二月 1, 2023</span>
             </div>
 
@@ -959,7 +981,7 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
   <div class="widget-wrap">
     <h3 class="widget-title">分类</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/IDE/">IDE</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/Java/">Java</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/SQL/">SQL</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/c-c/">c/c++</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/docker/">docker</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/git/">git</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/java/">java</a><span class="category-list-count">25</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/linux/">linux</a><span class="category-list-count">10</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/mysql/">mysql</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/windows/">windows</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">数据结构</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">机器学习</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/">碎碎念</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E7%A8%8B%E5%BA%8F%E4%BA%BA%E7%94%9F/">程序人生</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E7%AE%97%E6%B3%95/">算法</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E7%BC%96%E7%A8%8B/">编程</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E7%BD%91%E7%AB%99%E8%BF%90%E7%BB%B4/">网站运维</a><span class="category-list-count">7</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/">虚拟机</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E9%97%AE%E9%A2%98/">问题</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E9%A1%B9%E7%9B%AE/">项目</a><span class="category-list-count">3</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/IDE/">IDE</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Java/">Java</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/SQL/">SQL</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/c-c/">c/c++</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/docker/">docker</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/git/">git</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/java/">java</a><span class="category-list-count">25</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/linux/">linux</a><span class="category-list-count">10</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/mysql/">mysql</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/windows/">windows</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">数据结构</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">机器学习</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/">碎碎念</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%A8%8B%E5%BA%8F%E4%BA%BA%E7%94%9F/">程序人生</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%AE%97%E6%B3%95/">算法</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%BC%96%E7%A8%8B/">编程</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%BD%91%E7%AB%99%E8%BF%90%E7%BB%B4/">网站运维</a><span class="category-list-count">7</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/">虚拟机</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%97%AE%E9%A2%98/">问题</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%A1%B9%E7%9B%AE/">项目</a><span class="category-list-count">3</span></li></ul>
     </div>
   </div>
 
@@ -969,7 +991,7 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
   <div class="widget-wrap">
     <h3 class="widget-title">标签云</h3>
     <div class="widget tagcloud">
-      <a href="/666ahao/tags/BigDecimal/" style="font-size: 10px;">BigDecimal</a> <a href="/666ahao/tags/IDEA/" style="font-size: 10px;">IDEA</a> <a href="/666ahao/tags/IO%E6%B5%81/" style="font-size: 13.33px;">IO流</a> <a href="/666ahao/tags/IO%E6%B5%81%E4%BD%93%E7%B3%BB/" style="font-size: 10px;">IO流体系</a> <a href="/666ahao/tags/List/" style="font-size: 10px;">List</a> <a href="/666ahao/tags/Map%E9%9B%86%E5%90%88/" style="font-size: 10px;">Map集合</a> <a href="/666ahao/tags/NIO/" style="font-size: 10px;">NIO</a> <a href="/666ahao/tags/Queue/" style="font-size: 10px;">Queue</a> <a href="/666ahao/tags/SQLserver/" style="font-size: 10px;">SQLserver</a> <a href="/666ahao/tags/Set%E9%9B%86%E5%90%88/" style="font-size: 10px;">Set集合</a> <a href="/666ahao/tags/String/" style="font-size: 10px;">String</a> <a href="/666ahao/tags/TCP-IP/" style="font-size: 10px;">TCP/IP</a> <a href="/666ahao/tags/Ubuntu/" style="font-size: 10px;">Ubuntu</a> <a href="/666ahao/tags/WSL/" style="font-size: 10px;">WSL</a> <a href="/666ahao/tags/bug%E9%97%AE%E9%A2%98/" style="font-size: 10px;">bug问题</a> <a href="/666ahao/tags/c/" style="font-size: 16.67px;">c</a> <a href="/666ahao/tags/c/" style="font-size: 13.33px;">c++</a> <a href="/666ahao/tags/eladmin/" style="font-size: 10px;">eladmin</a> <a href="/666ahao/tags/equals/" style="font-size: 10px;">equals</a> <a href="/666ahao/tags/ghelper/" style="font-size: 10px;">ghelper</a> <a href="/666ahao/tags/git/" style="font-size: 10px;">git</a> <a href="/666ahao/tags/gitpage/" style="font-size: 10px;">gitpage</a> <a href="/666ahao/tags/hexo-inject/" style="font-size: 10px;">hexo-inject</a> <a href="/666ahao/tags/idea/" style="font-size: 10px;">idea</a> <a href="/666ahao/tags/java/" style="font-size: 20px;">java</a> <a href="/666ahao/tags/java%E5%BC%82%E5%B8%B8/" style="font-size: 10px;">java异常</a> <a href="/666ahao/tags/linux/" style="font-size: 10px;">linux</a> <a href="/666ahao/tags/matery/" style="font-size: 13.33px;">matery</a> <a href="/666ahao/tags/matery%E4%B8%BB%E9%A2%98/" style="font-size: 10px;">matery主题</a> <a href="/666ahao/tags/moneykeeper/" style="font-size: 10px;">moneykeeper</a> <a href="/666ahao/tags/sakura/" style="font-size: 10px;">sakura</a> <a href="/666ahao/tags/ubantu/" style="font-size: 10px;">ubantu</a> <a href="/666ahao/tags/virtualbox%E8%99%9A%E6%8B%9F%E6%9C%BA/" style="font-size: 10px;">virtualbox虚拟机</a> <a href="/666ahao/tags/windows/" style="font-size: 10px;">windows</a> <a href="/666ahao/tags/%E4%B8%8D%E5%8F%AF%E5%8F%98%E7%B1%BB/" style="font-size: 10px;">不可变类</a> <a href="/666ahao/tags/%E4%BA%92%E8%B4%A8/" style="font-size: 10px;">互质</a> <a href="/666ahao/tags/%E4%BC%98%E5%8C%96/" style="font-size: 10px;">优化</a> <a href="/666ahao/tags/%E5%86%85%E9%83%A8%E7%B1%BB/" style="font-size: 10px;">内部类</a> <a href="/666ahao/tags/%E5%88%9D%E5%A7%8B%E5%8C%96%E5%9D%97/" style="font-size: 10px;">初始化块</a> <a href="/666ahao/tags/%E5%8D%95%E4%BE%8B%E7%B1%BB/" style="font-size: 10px;">单例类</a> <a href="/666ahao/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 13.33px;">博客</a> <a href="/666ahao/tags/%E5%8D%9A%E5%AE%A2%E5%9B%AD/" style="font-size: 10px;">博客园</a> <a href="/666ahao/tags/%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/" style="font-size: 10px;">博客简介</a> <a href="/666ahao/tags/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/" style="font-size: 10px;">博客美化</a> <a href="/666ahao/tags/%E5%8F%8D%E5%B0%84/" style="font-size: 10px;">反射</a> <a href="/666ahao/tags/%E5%8F%98%E9%87%8F%E5%88%86%E7%B1%BB/" style="font-size: 10px;">变量分类</a> <a href="/666ahao/tags/%E5%A4%9A%E6%80%81/" style="font-size: 10px;">多态</a> <a href="/666ahao/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/" style="font-size: 16.67px;">多线程</a> <a href="/666ahao/tags/%E5%B7%A5%E5%85%B7%E7%B1%BB/" style="font-size: 10px;">工具类</a> <a href="/666ahao/tags/%E5%BC%80%E6%BA%90/" style="font-size: 10px;">开源</a> <a href="/666ahao/tags/%E6%8A%BD%E8%B1%A1/" style="font-size: 10px;">抽象</a> <a href="/666ahao/tags/%E6%8E%A5%E5%8F%A3/" style="font-size: 13.33px;">接口</a> <a href="/666ahao/tags/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/" style="font-size: 10px;">搜索引擎</a> <a href="/666ahao/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 10px;">数据结构</a> <a href="/666ahao/tags/%E6%9C%80%E5%B0%8F%E5%85%AC%E5%80%8D%E6%95%B0/" style="font-size: 10px;">最小公倍数</a> <a href="/666ahao/tags/%E6%9E%84%E9%80%A0%E5%99%A8%E9%87%8D%E8%BD%BD/" style="font-size: 10px;">构造器重载</a> <a href="/666ahao/tags/%E6%A0%88/" style="font-size: 10px;">栈</a> <a href="/666ahao/tags/%E6%B3%9B%E5%9E%8B/" style="font-size: 10px;">泛型</a> <a href="/666ahao/tags/%E6%B3%A8%E8%A7%A3/" style="font-size: 10px;">注解</a> <a href="/666ahao/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/" style="font-size: 10px;">浏览器</a> <a href="/666ahao/tags/%E7%96%AB%E6%83%85/" style="font-size: 10px;">疫情</a> <a href="/666ahao/tags/%E7%AE%97%E6%B3%95/" style="font-size: 10px;">算法</a> <a href="/666ahao/tags/%E7%AE%97%E6%B3%95%E5%A4%8D%E6%9D%82%E5%BA%A6/" style="font-size: 10px;">算法复杂度</a> <a href="/666ahao/tags/%E7%B1%BB%E5%8A%A0%E8%BD%BD/" style="font-size: 10px;">类加载</a> <a href="/666ahao/tags/%E7%BA%BF%E7%A8%8B%E6%B1%A0/" style="font-size: 10px;">线程池</a> <a href="/666ahao/tags/%E7%BA%BF%E7%A8%8B%E9%80%9A%E4%BF%A1/" style="font-size: 10px;">线程通信</a> <a href="/666ahao/tags/%E7%BB%84%E5%90%88/" style="font-size: 10px;">组合</a> <a href="/666ahao/tags/%E7%BB%A7%E6%89%BF/" style="font-size: 10px;">继承</a> <a href="/666ahao/tags/%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%9E%8B/" style="font-size: 10px;">网络模型</a> <a href="/666ahao/tags/%E7%BE%8E%E5%8C%96/" style="font-size: 10px;">美化</a> <a href="/666ahao/tags/%E8%87%AA%E5%8A%A8%E8%A3%85%E6%8B%86%E7%AE%B1/" style="font-size: 10px;">自动装拆箱</a> <a href="/666ahao/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" style="font-size: 10px;">计算机网络</a> <a href="/666ahao/tags/%E8%AF%AD%E6%B3%95/" style="font-size: 10px;">语法</a> <a href="/666ahao/tags/%E9%80%92%E6%8E%A8/" style="font-size: 10px;">递推</a> <a href="/666ahao/tags/%E9%81%8D%E5%8E%86%E9%9B%86%E5%90%88/" style="font-size: 10px;">遍历集合</a> <a href="/666ahao/tags/%E9%97%AE%E9%A2%98/" style="font-size: 13.33px;">问题</a> <a href="/666ahao/tags/%E9%98%9F%E5%88%97/" style="font-size: 10px;">队列</a> <a href="/666ahao/tags/%E9%9B%86%E5%90%88/" style="font-size: 13.33px;">集合</a> <a href="/666ahao/tags/%E9%9B%86%E5%90%88%E7%B1%BB/" style="font-size: 10px;">集合类</a> <a href="/666ahao/tags/%E9%9D%99%E6%80%81%E5%88%9D%E5%A7%8B%E5%8C%96%E5%9D%97/" style="font-size: 10px;">静态初始化块</a> <a href="/666ahao/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/" style="font-size: 10px;">面向对象</a> <a href="/666ahao/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/" style="font-size: 10px;">音乐播放器</a> <a href="/666ahao/tags/%E9%A1%B9%E7%9B%AE/" style="font-size: 10px;">项目</a>
+      <a href="/tags/BigDecimal/" style="font-size: 10px;">BigDecimal</a> <a href="/tags/IDEA/" style="font-size: 10px;">IDEA</a> <a href="/tags/IO%E6%B5%81/" style="font-size: 13.33px;">IO流</a> <a href="/tags/IO%E6%B5%81%E4%BD%93%E7%B3%BB/" style="font-size: 10px;">IO流体系</a> <a href="/tags/List/" style="font-size: 10px;">List</a> <a href="/tags/Map%E9%9B%86%E5%90%88/" style="font-size: 10px;">Map集合</a> <a href="/tags/NIO/" style="font-size: 10px;">NIO</a> <a href="/tags/Queue/" style="font-size: 10px;">Queue</a> <a href="/tags/SQLserver/" style="font-size: 10px;">SQLserver</a> <a href="/tags/Set%E9%9B%86%E5%90%88/" style="font-size: 10px;">Set集合</a> <a href="/tags/String/" style="font-size: 10px;">String</a> <a href="/tags/TCP-IP/" style="font-size: 10px;">TCP/IP</a> <a href="/tags/Ubuntu/" style="font-size: 10px;">Ubuntu</a> <a href="/tags/WSL/" style="font-size: 10px;">WSL</a> <a href="/tags/bug%E9%97%AE%E9%A2%98/" style="font-size: 10px;">bug问题</a> <a href="/tags/c/" style="font-size: 16.67px;">c</a> <a href="/tags/c/" style="font-size: 13.33px;">c++</a> <a href="/tags/eladmin/" style="font-size: 10px;">eladmin</a> <a href="/tags/equals/" style="font-size: 10px;">equals</a> <a href="/tags/ghelper/" style="font-size: 10px;">ghelper</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/gitpage/" style="font-size: 10px;">gitpage</a> <a href="/tags/hexo-inject/" style="font-size: 10px;">hexo-inject</a> <a href="/tags/idea/" style="font-size: 10px;">idea</a> <a href="/tags/java/" style="font-size: 20px;">java</a> <a href="/tags/java%E5%BC%82%E5%B8%B8/" style="font-size: 10px;">java异常</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/matery/" style="font-size: 13.33px;">matery</a> <a href="/tags/matery%E4%B8%BB%E9%A2%98/" style="font-size: 10px;">matery主题</a> <a href="/tags/moneykeeper/" style="font-size: 10px;">moneykeeper</a> <a href="/tags/sakura/" style="font-size: 10px;">sakura</a> <a href="/tags/ubantu/" style="font-size: 10px;">ubantu</a> <a href="/tags/virtualbox%E8%99%9A%E6%8B%9F%E6%9C%BA/" style="font-size: 10px;">virtualbox虚拟机</a> <a href="/tags/windows/" style="font-size: 10px;">windows</a> <a href="/tags/%E4%B8%8D%E5%8F%AF%E5%8F%98%E7%B1%BB/" style="font-size: 10px;">不可变类</a> <a href="/tags/%E4%BA%92%E8%B4%A8/" style="font-size: 10px;">互质</a> <a href="/tags/%E4%BC%98%E5%8C%96/" style="font-size: 10px;">优化</a> <a href="/tags/%E5%86%85%E9%83%A8%E7%B1%BB/" style="font-size: 10px;">内部类</a> <a href="/tags/%E5%88%9D%E5%A7%8B%E5%8C%96%E5%9D%97/" style="font-size: 10px;">初始化块</a> <a href="/tags/%E5%8D%95%E4%BE%8B%E7%B1%BB/" style="font-size: 10px;">单例类</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 13.33px;">博客</a> <a href="/tags/%E5%8D%9A%E5%AE%A2%E5%9B%AD/" style="font-size: 10px;">博客园</a> <a href="/tags/%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/" style="font-size: 10px;">博客简介</a> <a href="/tags/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/" style="font-size: 10px;">博客美化</a> <a href="/tags/%E5%8F%8D%E5%B0%84/" style="font-size: 10px;">反射</a> <a href="/tags/%E5%8F%98%E9%87%8F%E5%88%86%E7%B1%BB/" style="font-size: 10px;">变量分类</a> <a href="/tags/%E5%A4%9A%E6%80%81/" style="font-size: 10px;">多态</a> <a href="/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/" style="font-size: 16.67px;">多线程</a> <a href="/tags/%E5%B7%A5%E5%85%B7%E7%B1%BB/" style="font-size: 10px;">工具类</a> <a href="/tags/%E5%BC%80%E6%BA%90/" style="font-size: 10px;">开源</a> <a href="/tags/%E6%8A%BD%E8%B1%A1/" style="font-size: 10px;">抽象</a> <a href="/tags/%E6%8E%A5%E5%8F%A3/" style="font-size: 13.33px;">接口</a> <a href="/tags/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/" style="font-size: 10px;">搜索引擎</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 10px;">数据结构</a> <a href="/tags/%E6%9C%80%E5%B0%8F%E5%85%AC%E5%80%8D%E6%95%B0/" style="font-size: 10px;">最小公倍数</a> <a href="/tags/%E6%9E%84%E9%80%A0%E5%99%A8%E9%87%8D%E8%BD%BD/" style="font-size: 10px;">构造器重载</a> <a href="/tags/%E6%A0%88/" style="font-size: 10px;">栈</a> <a href="/tags/%E6%B3%9B%E5%9E%8B/" style="font-size: 10px;">泛型</a> <a href="/tags/%E6%B3%A8%E8%A7%A3/" style="font-size: 10px;">注解</a> <a href="/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/" style="font-size: 10px;">浏览器</a> <a href="/tags/%E7%96%AB%E6%83%85/" style="font-size: 10px;">疫情</a> <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 10px;">算法</a> <a href="/tags/%E7%AE%97%E6%B3%95%E5%A4%8D%E6%9D%82%E5%BA%A6/" style="font-size: 10px;">算法复杂度</a> <a href="/tags/%E7%B1%BB%E5%8A%A0%E8%BD%BD/" style="font-size: 10px;">类加载</a> <a href="/tags/%E7%BA%BF%E7%A8%8B%E6%B1%A0/" style="font-size: 10px;">线程池</a> <a href="/tags/%E7%BA%BF%E7%A8%8B%E9%80%9A%E4%BF%A1/" style="font-size: 10px;">线程通信</a> <a href="/tags/%E7%BB%84%E5%90%88/" style="font-size: 10px;">组合</a> <a href="/tags/%E7%BB%A7%E6%89%BF/" style="font-size: 10px;">继承</a> <a href="/tags/%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%9E%8B/" style="font-size: 10px;">网络模型</a> <a href="/tags/%E7%BE%8E%E5%8C%96/" style="font-size: 10px;">美化</a> <a href="/tags/%E8%87%AA%E5%8A%A8%E8%A3%85%E6%8B%86%E7%AE%B1/" style="font-size: 10px;">自动装拆箱</a> <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" style="font-size: 10px;">计算机网络</a> <a href="/tags/%E8%AF%AD%E6%B3%95/" style="font-size: 10px;">语法</a> <a href="/tags/%E9%80%92%E6%8E%A8/" style="font-size: 10px;">递推</a> <a href="/tags/%E9%81%8D%E5%8E%86%E9%9B%86%E5%90%88/" style="font-size: 10px;">遍历集合</a> <a href="/tags/%E9%97%AE%E9%A2%98/" style="font-size: 13.33px;">问题</a> <a href="/tags/%E9%98%9F%E5%88%97/" style="font-size: 10px;">队列</a> <a href="/tags/%E9%9B%86%E5%90%88/" style="font-size: 13.33px;">集合</a> <a href="/tags/%E9%9B%86%E5%90%88%E7%B1%BB/" style="font-size: 10px;">集合类</a> <a href="/tags/%E9%9D%99%E6%80%81%E5%88%9D%E5%A7%8B%E5%8C%96%E5%9D%97/" style="font-size: 10px;">静态初始化块</a> <a href="/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/" style="font-size: 10px;">面向对象</a> <a href="/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/" style="font-size: 10px;">音乐播放器</a> <a href="/tags/%E9%A1%B9%E7%9B%AE/" style="font-size: 10px;">项目</a>
     </div>
   </div>
 
@@ -979,7 +1001,7 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
     <h3 class="widget-title">归档</h3>
 
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2024/01/">一月 2024</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2023/12/">十二月 2023</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2023/11/">十一月 2023</a><span class="archive-list-count">9</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2023/10/">十月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2023/07/">七月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2023/03/">三月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2023/02/">二月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2022/02/">二月 2022</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2021/11/">十一月 2021</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2021/09/">九月 2021</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2021/02/">二月 2021</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2021/01/">一月 2021</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/11/">十一月 2020</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/10/">十月 2020</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/09/">九月 2020</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/08/">八月 2020</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/07/">七月 2020</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/06/">六月 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/05/">五月 2020</a><span class="archive-list-count">9</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/04/">四月 2020</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/03/">三月 2020</a><span class="archive-list-count">1</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/01/">一月 2024</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/12/">十二月 2023</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/11/">十一月 2023</a><span class="archive-list-count">9</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/10/">十月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/07/">七月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/03/">三月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/02/">二月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/02/">二月 2022</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/11/">十一月 2021</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/09/">九月 2021</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/02/">二月 2021</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/01/">一月 2021</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/11/">十一月 2020</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/10/">十月 2020</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/09/">九月 2020</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/08/">八月 2020</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/07/">七月 2020</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/06/">六月 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/">五月 2020</a><span class="archive-list-count">9</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">四月 2020</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">三月 2020</a><span class="archive-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -992,17 +1014,17 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
     </div>
     <!-- <nav id="mobile-nav">
   
-    <a href="/666ahao/" class="mobile-nav-link">Home</a>
+    <a href="/" class="mobile-nav-link">Home</a>
   
-    <a href="/666ahao/archives" class="mobile-nav-link">Archives</a>
+    <a href="/archives" class="mobile-nav-link">Archives</a>
   
-    <a href="/666ahao/categories" class="mobile-nav-link">Categories</a>
+    <a href="/categories" class="mobile-nav-link">Categories</a>
   
-    <a href="/666ahao/tags" class="mobile-nav-link">Tags</a>
+    <a href="/tags" class="mobile-nav-link">Tags</a>
   
-    <a href="/666ahao/about" class="mobile-nav-link">About</a>
+    <a href="/about" class="mobile-nav-link">About</a>
   
-    <a href="/666ahao/friends" class="mobile-nav-link">Friends</a>
+    <a href="/friends" class="mobile-nav-link">Friends</a>
   
 </nav> -->
     <footer id="footer" class="site-footer">
@@ -1036,6 +1058,9 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
 
 
     <!-- headerblur min height -->
+    
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>
@@ -1077,21 +1102,21 @@ void rotate(List list,int d)：当d为正时，将集合后d个元素整体移�
 
 
   
-<link rel="stylesheet" href="/666ahao/fancybox/jquery.fancybox.css">
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
 
   
-<script src="/666ahao/fancybox/jquery.fancybox.pack.js"></script>
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
 
 
 
 
-<script src="/666ahao/js/script.js"></script>
+<script src="/js/script.js"></script>
 
 
-<script src="/666ahao/js/bootstrap.js"></script>
+<script src="/js/bootstrap.js"></script>
 
 
-<script src="/666ahao/js/main.js"></script>
+<script src="/js/main.js"></script>
 
 
 

@@ -12,7 +12,7 @@
   <meta name="description" content="珍爱生命，远离大学">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Zblog">
-<meta property="og:url" content="https://666ahao.github.io/666ahao/archives/index.html">
+<meta property="og:url" content="https://666ahao.github.io/archives/index.html">
 <meta property="og:site_name" content="Zblog">
 <meta property="og:description" content="珍爱生命，远离大学">
 <meta property="og:locale" content="zh_CN">
@@ -25,7 +25,7 @@
 <meta property="article:tag" content="沧海一粟博客">
 <meta name="twitter:card" content="summary">
   
-  <link rel="icon" href="/666ahao/css/images/favicon.ico">
+  <link rel="icon" href="/css/images/favicon.ico">
   
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
@@ -40,19 +40,19 @@
 
   <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
   
-<link rel="stylesheet" href="/666ahao/css/style.css">
+<link rel="stylesheet" href="/css/style.css">
 
 
   
-<script src="/666ahao/js/jquery-3.1.1.min.js"></script>
+<script src="/js/jquery-3.1.1.min.js"></script>
 
 
   <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="/666ahao/css/bootstrap.css" >
-  <link rel="stylesheet" href="/666ahao/css/fashion.css" >
-  <link rel="stylesheet" href="/666ahao/css/glyphs.css" >
+  <link rel="stylesheet" href="/css/bootstrap.css" >
+  <link rel="stylesheet" href="/css/fashion.css" >
+  <link rel="stylesheet" href="/css/glyphs.css" >
 
-<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/666ahao/atom.xml" title="Zblog" type="application/atom+xml">
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Zblog" type="application/atom+xml">
 </head>
 
 
@@ -61,16 +61,38 @@
 
 
   
+  
+  <div class="site-header-image">
+    <img id="originBg" width="100%" alt="Hike News" src="">
+  </div>
+
+  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
+    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
+  </div>
+
+  <script>
+        var imgUrls = "css/images/pose01.jpg,https://source.unsplash.com/collection/954550/1920x1080,https://source.unsplash.com/collection/954550/1920x1081".split(",");
+        var random = Math.floor((Math.random() * imgUrls.length ));
+        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+          document.getElementById("originBg").src=imgUrls[random];
+          document.getElementById("blurBg").src=imgUrls[random];
+        } else {
+          document.getElementById("originBg").src='/' + imgUrls[random];
+          document.getElementById("blurBg").src='/' + imgUrls[random];
+        }
+    </script>
+
+
 
 
 <header id="allheader" class="site-header" role="banner" 
-   >
+   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.3);"  >
   <div class="clearfix container">
       <div class="site-branding">
 
           <h1 class="site-title">
             
-              <a href="/666ahao/" title="Zblog" rel="home"> Zblog </a>
+              <a href="/" title="Zblog" rel="home"> Zblog </a>
             
           </h1>
           
@@ -85,17 +107,17 @@
             <div class="clearfix sf-menu">
               <ul id="main-nav" class="menu sf-js-enabled sf-arrows"  style="touch-action: pan-y;">
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="/"> <a class="" href="/666ahao/">首页</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="/"> <a class="" href="/">首页</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="archives"> <a class="" href="/666ahao/archives">归档</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="archives"> <a class="" href="/archives">归档</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="categories"> <a class="" href="/666ahao/categories">分类</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="categories"> <a class="" href="/categories">分类</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="tags"> <a class="" href="/666ahao/tags">标签</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="tags"> <a class="" href="/tags">标签</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="about"> <a class="" href="/666ahao/about">关于</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="about"> <a class="" href="/about">关于</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="friends"> <a class="" href="/666ahao/friends">友链</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="friends"> <a class="" href="/friends">友链</a> </li>
                     
               </ul>
             </div>
@@ -127,7 +149,7 @@
 		  
 		  <section class="archives-wrap">
 		    <div class="archive-year-wrap">
-		      <h1><a href="/666ahao/archives/2024" class="archive-year">2024</a></h1>
+		      <h1><a href="/archives/2024" class="archive-year">2024</a></h1>
 		    </div>
 		    <div class="archives">
 		
@@ -135,13 +157,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2024/0118/" class="archive-article-date">
+      <a href="/2024/0118/" class="archive-article-date">
 		  <time datetime="2024-01-18T01:16:09.000Z" itemprop="datePublished">1月 18, 2024</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2024/0118/">SpringBoot原理解析</a>
+      <a class="archive-article-title" href="/2024/0118/">SpringBoot原理解析</a>
     </h1>
   
 
@@ -157,7 +179,7 @@
 		  
 		  <section class="archives-wrap">
 		    <div class="archive-year-wrap">
-		      <h1><a href="/666ahao/archives/2023" class="archive-year">2023</a></h1>
+		      <h1><a href="/archives/2023" class="archive-year">2023</a></h1>
 		    </div>
 		    <div class="archives">
 		
@@ -165,13 +187,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2023/1231/" class="archive-article-date">
+      <a href="/2023/1231/" class="archive-article-date">
 		  <time datetime="2023-12-31T10:16:09.000Z" itemprop="datePublished">12月 31, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2023/1231/">Spring入门</a>
+      <a class="archive-article-title" href="/2023/1231/">Spring入门</a>
     </h1>
   
 
@@ -185,13 +207,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2023/1225/" class="archive-article-date">
+      <a href="/2023/1225/" class="archive-article-date">
 		  <time datetime="2023-12-25T07:11:52.000Z" itemprop="datePublished">12月 25, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2023/1225/">mybatisplus入门</a>
+      <a class="archive-article-title" href="/2023/1225/">mybatisplus入门</a>
     </h1>
   
 
@@ -205,13 +227,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2023/1215/" class="archive-article-date">
+      <a href="/2023/1215/" class="archive-article-date">
 		  <time datetime="2023-12-15T08:15:23.000Z" itemprop="datePublished">12月 15, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2023/1215/">MySQL入门</a>
+      <a class="archive-article-title" href="/2023/1215/">MySQL入门</a>
     </h1>
   
 
@@ -225,13 +247,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2023/1211/" class="archive-article-date">
+      <a href="/2023/1211/" class="archive-article-date">
 		  <time datetime="2023-12-11T09:45:23.000Z" itemprop="datePublished">12月 11, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2023/1211/">linux正则表达式与三剑客</a>
+      <a class="archive-article-title" href="/2023/1211/">linux正则表达式与三剑客</a>
     </h1>
   
 
@@ -245,13 +267,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2023/1201/" class="archive-article-date">
+      <a href="/2023/1201/" class="archive-article-date">
 		  <time datetime="2023-12-01T07:16:09.000Z" itemprop="datePublished">12月 01, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2023/1201/">Git入门</a>
+      <a class="archive-article-title" href="/2023/1201/">Git入门</a>
     </h1>
   
 
@@ -265,13 +287,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2023/1128/" class="archive-article-date">
+      <a href="/2023/1128/" class="archive-article-date">
 		  <time datetime="2023-11-28T01:16:09.000Z" itemprop="datePublished">11月 28, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2023/1128/">在windows下安装linux多系统</a>
+      <a class="archive-article-title" href="/2023/1128/">在windows下安装linux多系统</a>
     </h1>
   
 
@@ -285,13 +307,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2023/1122/" class="archive-article-date">
+      <a href="/2023/1122/" class="archive-article-date">
 		  <time datetime="2023-11-22T03:38:31.000Z" itemprop="datePublished">11月 22, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2023/1122/">docker实战</a>
+      <a class="archive-article-title" href="/2023/1122/">docker实战</a>
     </h1>
   
 
@@ -305,13 +327,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2023/1121/" class="archive-article-date">
+      <a href="/2023/1121/" class="archive-article-date">
 		  <time datetime="2023-11-21T02:17:40.000Z" itemprop="datePublished">11月 21, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2023/1121/">docker入门</a>
+      <a class="archive-article-title" href="/2023/1121/">docker入门</a>
     </h1>
   
 
@@ -325,13 +347,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2023/1114/" class="archive-article-date">
+      <a href="/2023/1114/" class="archive-article-date">
 		  <time datetime="2023-11-14T01:11:52.000Z" itemprop="datePublished">11月 14, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2023/1114/">linux进阶</a>
+      <a class="archive-article-title" href="/2023/1114/">linux进阶</a>
     </h1>
   
 
@@ -345,13 +367,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2023/1113/" class="archive-article-date">
+      <a href="/2023/1113/" class="archive-article-date">
 		  <time datetime="2023-11-13T06:16:30.000Z" itemprop="datePublished">11月 13, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2023/1113/">找回mysql密码</a>
+      <a class="archive-article-title" href="/2023/1113/">找回mysql密码</a>
     </h1>
   
 
@@ -365,13 +387,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2023/1112/" class="archive-article-date">
+      <a href="/2023/1112/" class="archive-article-date">
 		  <time datetime="2023-11-12T09:49:23.000Z" itemprop="datePublished">11月 12, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2023/1112/">Linux常用指令</a>
+      <a class="archive-article-title" href="/2023/1112/">Linux常用指令</a>
     </h1>
   
 
@@ -385,13 +407,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2023/1111/" class="archive-article-date">
+      <a href="/2023/1111/" class="archive-article-date">
 		  <time datetime="2023-11-11T04:58:45.000Z" itemprop="datePublished">11月 11, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2023/1111/">Shell编程</a>
+      <a class="archive-article-title" href="/2023/1111/">Shell编程</a>
     </h1>
   
 
@@ -405,13 +427,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2023/1106/" class="archive-article-date">
+      <a href="/2023/1106/" class="archive-article-date">
 		  <time datetime="2023-11-06T09:38:47.000Z" itemprop="datePublished">11月 06, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2023/1106/">Linux下进行JavaEE开发,安装JDK、Tomcat、MySQL</a>
+      <a class="archive-article-title" href="/2023/1106/">Linux下进行JavaEE开发,安装JDK、Tomcat、MySQL</a>
     </h1>
   
 
@@ -425,13 +447,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2023/1102/" class="archive-article-date">
+      <a href="/2023/1102/" class="archive-article-date">
 		  <time datetime="2023-11-02T01:19:39.000Z" itemprop="datePublished">11月 02, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2023/1102/">虚拟机IP突然消失的解决方法</a>
+      <a class="archive-article-title" href="/2023/1102/">虚拟机IP突然消失的解决方法</a>
     </h1>
   
 
@@ -445,13 +467,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2023/1027/" class="archive-article-date">
+      <a href="/2023/1027/" class="archive-article-date">
 		  <time datetime="2023-10-27T04:55:09.000Z" itemprop="datePublished">10月 27, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2023/1027/">linux找回root密码，CentOS7</a>
+      <a class="archive-article-title" href="/2023/1027/">linux找回root密码，CentOS7</a>
     </h1>
   
 
@@ -465,13 +487,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2023/0724/" class="archive-article-date">
+      <a href="/2023/0724/" class="archive-article-date">
 		  <time datetime="2023-07-24T13:43:40.000Z" itemprop="datePublished">7月 24, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2023/0724/">7月感悟</a>
+      <a class="archive-article-title" href="/2023/0724/">7月感悟</a>
     </h1>
   
 
@@ -485,13 +507,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2023/0314/" class="archive-article-date">
+      <a href="/2023/0314/" class="archive-article-date">
 		  <time datetime="2023-03-14T15:00:56.000Z" itemprop="datePublished">3月 14, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2023/0314/">机器学习概念初步</a>
+      <a class="archive-article-title" href="/2023/0314/">机器学习概念初步</a>
     </h1>
   
 
@@ -505,13 +527,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2023/0208/" class="archive-article-date">
+      <a href="/2023/0208/" class="archive-article-date">
 		  <time datetime="2023-02-08T08:49:24.000Z" itemprop="datePublished">2月 08, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2023/0208/">写在大学最后的时光</a>
+      <a class="archive-article-title" href="/2023/0208/">写在大学最后的时光</a>
     </h1>
   
 
@@ -527,7 +549,7 @@
 		  
 		  <section class="archives-wrap">
 		    <div class="archive-year-wrap">
-		      <h1><a href="/666ahao/archives/2022" class="archive-year">2022</a></h1>
+		      <h1><a href="/archives/2022" class="archive-year">2022</a></h1>
 		    </div>
 		    <div class="archives">
 		
@@ -535,13 +557,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2022/0224/" class="archive-article-date">
+      <a href="/2022/0224/" class="archive-article-date">
 		  <time datetime="2022-02-24T08:36:49.000Z" itemprop="datePublished">2月 24, 2022</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2022/0224/">关于28岁的字节工程师离世的感慨</a>
+      <a class="archive-article-title" href="/2022/0224/">关于28岁的字节工程师离世的感慨</a>
     </h1>
   
 
@@ -557,7 +579,7 @@
 		  
 		  <section class="archives-wrap">
 		    <div class="archive-year-wrap">
-		      <h1><a href="/666ahao/archives/2021" class="archive-year">2021</a></h1>
+		      <h1><a href="/archives/2021" class="archive-year">2021</a></h1>
 		    </div>
 		    <div class="archives">
 		
@@ -565,13 +587,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2021/1123/" class="archive-article-date">
+      <a href="/2021/1123/" class="archive-article-date">
 		  <time datetime="2021-11-23T12:07:51.000Z" itemprop="datePublished">11月 23, 2021</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2021/1123/">ACM、OI、IOI编程竞赛模式介绍</a>
+      <a class="archive-article-title" href="/2021/1123/">ACM、OI、IOI编程竞赛模式介绍</a>
     </h1>
   
 
@@ -585,13 +607,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2021/0927/" class="archive-article-date">
+      <a href="/2021/0927/" class="archive-article-date">
 		  <time datetime="2021-09-27T09:25:51.000Z" itemprop="datePublished">9月 27, 2021</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2021/0927/">Github-Readme-Stats项目介绍</a>
+      <a class="archive-article-title" href="/2021/0927/">Github-Readme-Stats项目介绍</a>
     </h1>
   
 
@@ -605,13 +627,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2021/0916/" class="archive-article-date">
+      <a href="/2021/0916/" class="archive-article-date">
 		  <time datetime="2021-09-16T13:07:56.000Z" itemprop="datePublished">9月 16, 2021</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2021/0916/">CC知识共享许可协议简介</a>
+      <a class="archive-article-title" href="/2021/0916/">CC知识共享许可协议简介</a>
     </h1>
   
 
@@ -625,13 +647,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2021/0901/" class="archive-article-date">
+      <a href="/2021/0901/" class="archive-article-date">
 		  <time datetime="2021-09-01T08:08:20.000Z" itemprop="datePublished">9月 01, 2021</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2021/0901/">在Windows下安装linux子系统WSL(Ubuntu)</a>
+      <a class="archive-article-title" href="/2021/0901/">在Windows下安装linux子系统WSL(Ubuntu)</a>
     </h1>
   
 
@@ -645,13 +667,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2021/0228/" class="archive-article-date">
+      <a href="/2021/0228/" class="archive-article-date">
 		  <time datetime="2021-02-28T13:46:22.000Z" itemprop="datePublished">2月 28, 2021</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2021/0228/">在服务器上安装halo博客</a>
+      <a class="archive-article-title" href="/2021/0228/">在服务器上安装halo博客</a>
     </h1>
   
 
@@ -665,13 +687,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2021/0127/" class="archive-article-date">
+      <a href="/2021/0127/" class="archive-article-date">
 		  <time datetime="2021-01-27T13:46:22.000Z" itemprop="datePublished">1月 27, 2021</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2021/0127/">Java多线程(五)-线程池</a>
+      <a class="archive-article-title" href="/2021/0127/">Java多线程(五)-线程池</a>
     </h1>
   
 
@@ -685,13 +707,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2021/0123/" class="archive-article-date">
+      <a href="/2021/0123/" class="archive-article-date">
 		  <time datetime="2021-01-23T09:18:08.000Z" itemprop="datePublished">1月 23, 2021</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2021/0123/">Java多线程(四)-线程通信</a>
+      <a class="archive-article-title" href="/2021/0123/">Java多线程(四)-线程通信</a>
     </h1>
   
 
@@ -705,13 +727,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2021/0121/" class="archive-article-date">
+      <a href="/2021/0121/" class="archive-article-date">
 		  <time datetime="2021-01-21T06:39:09.000Z" itemprop="datePublished">1月 21, 2021</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2021/0121/">Java-IO流(三)-NIO</a>
+      <a class="archive-article-title" href="/2021/0121/">Java-IO流(三)-NIO</a>
     </h1>
   
 
@@ -725,13 +747,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2021/0120/" class="archive-article-date">
+      <a href="/2021/0120/" class="archive-article-date">
 		  <time datetime="2021-01-20T11:48:51.000Z" itemprop="datePublished">1月 20, 2021</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2021/0120/">Java多线程(二)-控制线程</a>
+      <a class="archive-article-title" href="/2021/0120/">Java多线程(二)-控制线程</a>
     </h1>
   
 
@@ -745,13 +767,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2021/0119/" class="archive-article-date">
+      <a href="/2021/0119/" class="archive-article-date">
 		  <time datetime="2021-01-19T03:40:40.000Z" itemprop="datePublished">1月 19, 2021</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2021/0119/">Java多线程(一)-线程的创建</a>
+      <a class="archive-article-title" href="/2021/0119/">Java多线程(一)-线程的创建</a>
     </h1>
   
 
@@ -767,7 +789,7 @@
 		  
 		  <section class="archives-wrap">
 		    <div class="archive-year-wrap">
-		      <h1><a href="/666ahao/archives/2020" class="archive-year">2020</a></h1>
+		      <h1><a href="/archives/2020" class="archive-year">2020</a></h1>
 		    </div>
 		    <div class="archives">
 		
@@ -775,13 +797,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/1104/" class="archive-article-date">
+      <a href="/2020/1104/" class="archive-article-date">
 		  <time datetime="2020-11-04T09:21:34.000Z" itemprop="datePublished">11月 04, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/1104/">Java-IO(二)输入输出流体系</a>
+      <a class="archive-article-title" href="/2020/1104/">Java-IO(二)输入输出流体系</a>
     </h1>
   
 
@@ -795,13 +817,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/1101/" class="archive-article-date">
+      <a href="/2020/1101/" class="archive-article-date">
 		  <time datetime="2020-11-01T09:20:57.000Z" itemprop="datePublished">11月 01, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/1101/">Java-IO流</a>
+      <a class="archive-article-title" href="/2020/1101/">Java-IO流</a>
     </h1>
   
 
@@ -815,13 +837,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/1021/" class="archive-article-date">
+      <a href="/2020/1021/" class="archive-article-date">
 		  <time datetime="2020-10-21T09:20:32.000Z" itemprop="datePublished">10月 21, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/1021/">Java反射篇</a>
+      <a class="archive-article-title" href="/2020/1021/">Java反射篇</a>
     </h1>
   
 
@@ -835,13 +857,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/1018/" class="archive-article-date">
+      <a href="/2020/1018/" class="archive-article-date">
 		  <time datetime="2020-10-18T09:19:51.000Z" itemprop="datePublished">10月 18, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/1018/">Java类加载篇</a>
+      <a class="archive-article-title" href="/2020/1018/">Java类加载篇</a>
     </h1>
   
 
@@ -855,13 +877,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/1016/" class="archive-article-date">
+      <a href="/2020/1016/" class="archive-article-date">
 		  <time datetime="2020-10-16T09:19:31.000Z" itemprop="datePublished">10月 16, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/1016/">Java注解篇</a>
+      <a class="archive-article-title" href="/2020/1016/">Java注解篇</a>
     </h1>
   
 
@@ -875,13 +897,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/1013/" class="archive-article-date">
+      <a href="/2020/1013/" class="archive-article-date">
 		  <time datetime="2020-10-13T09:19:13.000Z" itemprop="datePublished">10月 13, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/1013/">Java泛型篇</a>
+      <a class="archive-article-title" href="/2020/1013/">Java泛型篇</a>
     </h1>
   
 
@@ -895,13 +917,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/1012/" class="archive-article-date">
+      <a href="/2020/1012/" class="archive-article-date">
 		  <time datetime="2020-10-12T09:18:33.000Z" itemprop="datePublished">10月 12, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/1012/">Java工具类</a>
+      <a class="archive-article-title" href="/2020/1012/">Java工具类</a>
     </h1>
   
 
@@ -915,13 +937,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/1011/" class="archive-article-date">
+      <a href="/2020/1011/" class="archive-article-date">
 		  <time datetime="2020-10-11T09:17:50.000Z" itemprop="datePublished">10月 11, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/1011/">Java集合(四)-Map集合</a>
+      <a class="archive-article-title" href="/2020/1011/">Java集合(四)-Map集合</a>
     </h1>
   
 
@@ -935,13 +957,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/1009/" class="archive-article-date">
+      <a href="/2020/1009/" class="archive-article-date">
 		  <time datetime="2020-10-09T13:25:27.000Z" itemprop="datePublished">10月 09, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/1009/">Java集合(三)-List和Queue集合</a>
+      <a class="archive-article-title" href="/2020/1009/">Java集合(三)-List和Queue集合</a>
     </h1>
   
 
@@ -955,13 +977,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/1003/" class="archive-article-date">
+      <a href="/2020/1003/" class="archive-article-date">
 		  <time datetime="2020-10-03T14:26:07.000Z" itemprop="datePublished">10月 03, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/1003/">Java集合(二)-Set集合</a>
+      <a class="archive-article-title" href="/2020/1003/">Java集合(二)-Set集合</a>
     </h1>
   
 
@@ -975,13 +997,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0929/" class="archive-article-date">
+      <a href="/2020/0929/" class="archive-article-date">
 		  <time datetime="2020-09-29T11:15:31.000Z" itemprop="datePublished">9月 29, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0929/">Java集合类-开篇</a>
+      <a class="archive-article-title" href="/2020/0929/">Java集合类-开篇</a>
     </h1>
   
 
@@ -995,13 +1017,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0924/" class="archive-article-date">
+      <a href="/2020/0924/" class="archive-article-date">
 		  <time datetime="2020-09-24T05:20:19.000Z" itemprop="datePublished">9月 24, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0924/">Java构造器和初始化块</a>
+      <a class="archive-article-title" href="/2020/0924/">Java构造器和初始化块</a>
     </h1>
   
 
@@ -1015,13 +1037,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0919/" class="archive-article-date">
+      <a href="/2020/0919/" class="archive-article-date">
 		  <time datetime="2020-09-19T12:52:12.000Z" itemprop="datePublished">9月 19, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0919/">变量分类和运行机制及自动装拆箱</a>
+      <a class="archive-article-title" href="/2020/0919/">变量分类和运行机制及自动装拆箱</a>
     </h1>
   
 
@@ -1035,13 +1057,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0917/" class="archive-article-date">
+      <a href="/2020/0917/" class="archive-article-date">
 		  <time datetime="2020-09-17T13:15:46.000Z" itemprop="datePublished">9月 17, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0917/">继承和组合、单例类及不可变类</a>
+      <a class="archive-article-title" href="/2020/0917/">继承和组合、单例类及不可变类</a>
     </h1>
   
 
@@ -1055,13 +1077,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0916/" class="archive-article-date">
+      <a href="/2020/0916/" class="archive-article-date">
 		  <time datetime="2020-09-16T11:53:38.000Z" itemprop="datePublished">9月 16, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0916/">String与BigDecimal基础类</a>
+      <a class="archive-article-title" href="/2020/0916/">String与BigDecimal基础类</a>
     </h1>
   
 
@@ -1075,13 +1097,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0907/" class="archive-article-date">
+      <a href="/2020/0907/" class="archive-article-date">
 		  <time datetime="2020-09-07T04:34:04.000Z" itemprop="datePublished">9月 07, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0907/">Java的异常、多态要点及抽象类和接口</a>
+      <a class="archive-article-title" href="/2020/0907/">Java的异常、多态要点及抽象类和接口</a>
     </h1>
   
 
@@ -1095,13 +1117,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0822/" class="archive-article-date">
+      <a href="/2020/0822/" class="archive-article-date">
 		  <time datetime="2020-08-22T02:33:06.000Z" itemprop="datePublished">8月 22, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0822/">Hexo-matery主题代码高亮和部署问题</a>
+      <a class="archive-article-title" href="/2020/0822/">Hexo-matery主题代码高亮和部署问题</a>
     </h1>
   
 
@@ -1115,13 +1137,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0819/" class="archive-article-date">
+      <a href="/2020/0819/" class="archive-article-date">
 		  <time datetime="2020-08-19T00:05:52.000Z" itemprop="datePublished">8月 19, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0819/">hexo-matery主题美化(四)</a>
+      <a class="archive-article-title" href="/2020/0819/">hexo-matery主题美化(四)</a>
     </h1>
   
 
@@ -1135,13 +1157,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0814/" class="archive-article-date">
+      <a href="/2020/0814/" class="archive-article-date">
 		  <time datetime="2020-08-14T08:35:14.000Z" itemprop="datePublished">8月 14, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0814/">新sakura博客园皮肤配置,NewSakura</a>
+      <a class="archive-article-title" href="/2020/0814/">新sakura博客园皮肤配置,NewSakura</a>
     </h1>
   
 
@@ -1155,13 +1177,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0809/" class="archive-article-date">
+      <a href="/2020/0809/" class="archive-article-date">
 		  <time datetime="2020-08-09T08:39:30.000Z" itemprop="datePublished">8月 09, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0809/">hexo-matery主题美化(三)-音乐播放器</a>
+      <a class="archive-article-title" href="/2020/0809/">hexo-matery主题美化(三)-音乐播放器</a>
     </h1>
   
 
@@ -1175,13 +1197,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0806/" class="archive-article-date">
+      <a href="/2020/0806/" class="archive-article-date">
 		  <time datetime="2020-08-06T04:11:00.000Z" itemprop="datePublished">8月 06, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0806/">hexo-matery主题优化(二)</a>
+      <a class="archive-article-title" href="/2020/0806/">hexo-matery主题优化(二)</a>
     </h1>
   
 
@@ -1195,13 +1217,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0730/" class="archive-article-date">
+      <a href="/2020/0730/" class="archive-article-date">
 		  <time datetime="2020-07-30T09:33:27.000Z" itemprop="datePublished">7月 30, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0730/">计算机网络-01网络模型</a>
+      <a class="archive-article-title" href="/2020/0730/">计算机网络-01网络模型</a>
     </h1>
   
 
@@ -1215,13 +1237,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0728/" class="archive-article-date">
+      <a href="/2020/0728/" class="archive-article-date">
 		  <time datetime="2020-07-28T12:16:40.000Z" itemprop="datePublished">7月 28, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0728/">java中的内部类</a>
+      <a class="archive-article-title" href="/2020/0728/">java中的内部类</a>
     </h1>
   
 
@@ -1235,13 +1257,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0725/" class="archive-article-date">
+      <a href="/2020/0725/" class="archive-article-date">
 		  <time datetime="2020-07-25T03:43:44.000Z" itemprop="datePublished">7月 25, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0725/">基本数据结构介绍了解</a>
+      <a class="archive-article-title" href="/2020/0725/">基本数据结构介绍了解</a>
     </h1>
   
 
@@ -1255,13 +1277,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0719/" class="archive-article-date">
+      <a href="/2020/0719/" class="archive-article-date">
 		  <time datetime="2020-07-19T10:09:51.000Z" itemprop="datePublished">7月 19, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0719/">opera、google、firefox浏览器的选择</a>
+      <a class="archive-article-title" href="/2020/0719/">opera、google、firefox浏览器的选择</a>
     </h1>
   
 
@@ -1275,13 +1297,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0709/" class="archive-article-date">
+      <a href="/2020/0709/" class="archive-article-date">
 		  <time datetime="2020-07-09T14:30:14.000Z" itemprop="datePublished">7月 09, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0709/">互质环与最小公倍数的几种求法</a>
+      <a class="archive-article-title" href="/2020/0709/">互质环与最小公倍数的几种求法</a>
     </h1>
   
 
@@ -1295,13 +1317,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0708/" class="archive-article-date">
+      <a href="/2020/0708/" class="archive-article-date">
 		  <time datetime="2020-07-08T14:29:13.000Z" itemprop="datePublished">7月 08, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0708/">年轻母牛的故事</a>
+      <a class="archive-article-title" href="/2020/0708/">年轻母牛的故事</a>
     </h1>
   
 
@@ -1315,13 +1337,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0705/" class="archive-article-date">
+      <a href="/2020/0705/" class="archive-article-date">
 		  <time datetime="2020-07-05T01:39:57.000Z" itemprop="datePublished">7月 05, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0705/">算法的复杂度</a>
+      <a class="archive-article-title" href="/2020/0705/">算法的复杂度</a>
     </h1>
   
 
@@ -1335,13 +1357,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0702/" class="archive-article-date">
+      <a href="/2020/0702/" class="archive-article-date">
 		  <time datetime="2020-07-02T02:38:18.000Z" itemprop="datePublished">7月 02, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0702/">halo开源博客</a>
+      <a class="archive-article-title" href="/2020/0702/">halo开源博客</a>
     </h1>
   
 
@@ -1355,13 +1377,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0626/" class="archive-article-date">
+      <a href="/2020/0626/" class="archive-article-date">
 		  <time datetime="2020-06-26T10:36:18.000Z" itemprop="datePublished">6月 26, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0626/">IDEA报错稀有问题</a>
+      <a class="archive-article-title" href="/2020/0626/">IDEA报错稀有问题</a>
     </h1>
   
 
@@ -1375,13 +1397,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0531/" class="archive-article-date">
+      <a href="/2020/0531/" class="archive-article-date">
 		  <time datetime="2020-05-31T02:34:07.000Z" itemprop="datePublished">5月 31, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0531/">带你跑一个开源项目</a>
+      <a class="archive-article-title" href="/2020/0531/">带你跑一个开源项目</a>
     </h1>
   
 
@@ -1395,13 +1417,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0528/" class="archive-article-date">
+      <a href="/2020/0528/" class="archive-article-date">
 		  <time datetime="2020-05-28T02:23:55.000Z" itemprop="datePublished">5月 28, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0528/">相比c++,java在基础语法上的改变</a>
+      <a class="archive-article-title" href="/2020/0528/">相比c++,java在基础语法上的改变</a>
     </h1>
   
 
@@ -1415,13 +1437,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0523/" class="archive-article-date">
+      <a href="/2020/0523/" class="archive-article-date">
 		  <time datetime="2020-05-22T21:46:14.000Z" itemprop="datePublished">5月 23, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0523/">SQL server连接本地数据库的两个问题</a>
+      <a class="archive-article-title" href="/2020/0523/">SQL server连接本地数据库的两个问题</a>
     </h1>
   
 
@@ -1435,13 +1457,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0514/" class="archive-article-date">
+      <a href="/2020/0514/" class="archive-article-date">
 		  <time datetime="2020-05-13T23:07:24.000Z" itemprop="datePublished">5月 14, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0514/">moneykeeper</a>
+      <a class="archive-article-title" href="/2020/0514/">moneykeeper</a>
     </h1>
   
 
@@ -1455,13 +1477,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0510/" class="archive-article-date">
+      <a href="/2020/0510/" class="archive-article-date">
 		  <time datetime="2020-05-09T23:26:56.000Z" itemprop="datePublished">5月 10, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0510/">疫情之下c又崛起！</a>
+      <a class="archive-article-title" href="/2020/0510/">疫情之下c又崛起！</a>
     </h1>
   
 
@@ -1475,13 +1497,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0509/" class="archive-article-date">
+      <a href="/2020/0509/" class="archive-article-date">
 		  <time datetime="2020-05-08T23:26:20.000Z" itemprop="datePublished">5月 09, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0509/">java equals()函数与‘==&#39;</a>
+      <a class="archive-article-title" href="/2020/0509/">java equals()函数与‘==&#39;</a>
     </h1>
   
 
@@ -1495,13 +1517,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0506/" class="archive-article-date">
+      <a href="/2020/0506/" class="archive-article-date">
 		  <time datetime="2020-05-06T01:17:56.000Z" itemprop="datePublished">5月 06, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0506/">IDEA启动加速与java编译</a>
+      <a class="archive-article-title" href="/2020/0506/">IDEA启动加速与java编译</a>
     </h1>
   
 
@@ -1515,13 +1537,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0504/" class="archive-article-date">
+      <a href="/2020/0504/" class="archive-article-date">
 		  <time datetime="2020-05-03T23:38:33.000Z" itemprop="datePublished">5月 04, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0504/">消息轰炸</a>
+      <a class="archive-article-title" href="/2020/0504/">消息轰炸</a>
     </h1>
   
 
@@ -1535,13 +1557,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0501/" class="archive-article-date">
+      <a href="/2020/0501/" class="archive-article-date">
 		  <time datetime="2020-05-01T00:26:55.000Z" itemprop="datePublished">5月 01, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0501/">c++高级编程</a>
+      <a class="archive-article-title" href="/2020/0501/">c++高级编程</a>
     </h1>
   
 
@@ -1555,13 +1577,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0428/" class="archive-article-date">
+      <a href="/2020/0428/" class="archive-article-date">
 		  <time datetime="2020-04-28T13:39:25.000Z" itemprop="datePublished">4月 28, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0428/">c++对象？看看这个</a>
+      <a class="archive-article-title" href="/2020/0428/">c++对象？看看这个</a>
     </h1>
   
 
@@ -1575,13 +1597,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0427/" class="archive-article-date">
+      <a href="/2020/0427/" class="archive-article-date">
 		  <time datetime="2020-04-27T00:17:52.000Z" itemprop="datePublished">4月 27, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0427/">还要翻Qiang？试试这个</a>
+      <a class="archive-article-title" href="/2020/0427/">还要翻Qiang？试试这个</a>
     </h1>
   
 
@@ -1595,13 +1617,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0425/" class="archive-article-date">
+      <a href="/2020/0425/" class="archive-article-date">
 		  <time datetime="2020-04-25T04:43:02.000Z" itemprop="datePublished">4月 25, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0425/">virtualbox虚拟机安装</a>
+      <a class="archive-article-title" href="/2020/0425/">virtualbox虚拟机安装</a>
     </h1>
   
 
@@ -1615,13 +1637,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0421/" class="archive-article-date">
+      <a href="/2020/0421/" class="archive-article-date">
 		  <time datetime="2020-04-21T04:09:58.000Z" itemprop="datePublished">4月 21, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0421/">gitpage CDN加速配置与深入</a>
+      <a class="archive-article-title" href="/2020/0421/">gitpage CDN加速配置与深入</a>
     </h1>
   
 
@@ -1635,13 +1657,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0419/" class="archive-article-date">
+      <a href="/2020/0419/" class="archive-article-date">
 		  <time datetime="2020-04-19T14:27:06.000Z" itemprop="datePublished">4月 19, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0419/">连接远程服务器出现乱码</a>
+      <a class="archive-article-title" href="/2020/0419/">连接远程服务器出现乱码</a>
     </h1>
   
 
@@ -1655,13 +1677,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0409/" class="archive-article-date">
+      <a href="/2020/0409/" class="archive-article-date">
 		  <time datetime="2020-04-09T12:32:23.000Z" itemprop="datePublished">4月 09, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0409/">matery主题优化问题</a>
+      <a class="archive-article-title" href="/2020/0409/">matery主题优化问题</a>
     </h1>
   
 
@@ -1675,13 +1697,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0406/" class="archive-article-date">
+      <a href="/2020/0406/" class="archive-article-date">
 		  <time datetime="2020-04-06T10:35:45.000Z" itemprop="datePublished">4月 06, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0406/">解决执行批处理文件后出现的问题</a>
+      <a class="archive-article-title" href="/2020/0406/">解决执行批处理文件后出现的问题</a>
     </h1>
   
 
@@ -1695,13 +1717,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0405/" class="archive-article-date">
+      <a href="/2020/0405/" class="archive-article-date">
 		  <time datetime="2020-04-05T01:40:19.000Z" itemprop="datePublished">4月 05, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0405/">用C语言实现链表</a>
+      <a class="archive-article-title" href="/2020/0405/">用C语言实现链表</a>
     </h1>
   
 
@@ -1715,13 +1737,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/666ahao/2020/0327/" class="archive-article-date">
+      <a href="/2020/0327/" class="archive-article-date">
 		  <time datetime="2020-03-27T04:01:39.000Z" itemprop="datePublished">3月 27, 2020</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/666ahao/2020/0327/">致访客</a>
+      <a class="archive-article-title" href="/2020/0327/">致访客</a>
     </h1>
   
 
@@ -1771,14 +1793,14 @@
             TAGS: '标签',
             UNTITLED: '(无标题)',
         },
-        ROOT_URL: '/666ahao/',
-        CONTENT_URL: '/666ahao/content.json',
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
     };
     window.INSIGHT_CONFIG = INSIGHT_CONFIG;
 })(window);
 </script>
 
-<script src="/666ahao/js/insight.js"></script>
+<script src="/js/insight.js"></script>
 
 
 </div>
@@ -1801,7 +1823,7 @@
               <div class="widget-entry-summary" style="margin: 0;">
             
 
-              <h6 style="margin: 0;"><a href="/666ahao/2024/0118/">SpringBoot原理解析</a></h6>
+              <h6 style="margin: 0;"><a href="/2024/0118/">SpringBoot原理解析</a></h6>
               <span>一月 18, 2024</span>
             </div>
 
@@ -1813,7 +1835,7 @@
               <div class="widget-entry-summary" style="margin: 0;">
             
 
-              <h6 style="margin: 0;"><a href="/666ahao/2023/1231/">Spring入门</a></h6>
+              <h6 style="margin: 0;"><a href="/2023/1231/">Spring入门</a></h6>
               <span>十二月 31, 2023</span>
             </div>
 
@@ -1825,7 +1847,7 @@
               <div class="widget-entry-summary" style="margin: 0;">
             
 
-              <h6 style="margin: 0;"><a href="/666ahao/2023/1225/">mybatisplus入门</a></h6>
+              <h6 style="margin: 0;"><a href="/2023/1225/">mybatisplus入门</a></h6>
               <span>十二月 25, 2023</span>
             </div>
 
@@ -1837,7 +1859,7 @@
               <div class="widget-entry-summary" style="margin: 0;">
             
 
-              <h6 style="margin: 0;"><a href="/666ahao/2023/1215/">MySQL入门</a></h6>
+              <h6 style="margin: 0;"><a href="/2023/1215/">MySQL入门</a></h6>
               <span>十二月 15, 2023</span>
             </div>
 
@@ -1849,7 +1871,7 @@
               <div class="widget-entry-summary" style="margin: 0;">
             
 
-              <h6 style="margin: 0;"><a href="/666ahao/2023/1211/">linux正则表达式与三剑客</a></h6>
+              <h6 style="margin: 0;"><a href="/2023/1211/">linux正则表达式与三剑客</a></h6>
               <span>十二月 11, 2023</span>
             </div>
 
@@ -1861,7 +1883,7 @@
               <div class="widget-entry-summary" style="margin: 0;">
             
 
-              <h6 style="margin: 0;"><a href="/666ahao/2023/1201/">Git入门</a></h6>
+              <h6 style="margin: 0;"><a href="/2023/1201/">Git入门</a></h6>
               <span>十二月 1, 2023</span>
             </div>
 
@@ -1876,7 +1898,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">分类</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/IDE/">IDE</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/Java/">Java</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/SQL/">SQL</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/c-c/">c/c++</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/docker/">docker</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/git/">git</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/java/">java</a><span class="category-list-count">25</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/linux/">linux</a><span class="category-list-count">10</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/mysql/">mysql</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/windows/">windows</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">数据结构</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">机器学习</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/">碎碎念</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E7%A8%8B%E5%BA%8F%E4%BA%BA%E7%94%9F/">程序人生</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E7%AE%97%E6%B3%95/">算法</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E7%BC%96%E7%A8%8B/">编程</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E7%BD%91%E7%AB%99%E8%BF%90%E7%BB%B4/">网站运维</a><span class="category-list-count">7</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/">虚拟机</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E9%97%AE%E9%A2%98/">问题</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E9%A1%B9%E7%9B%AE/">项目</a><span class="category-list-count">3</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/IDE/">IDE</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Java/">Java</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/SQL/">SQL</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/c-c/">c/c++</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/docker/">docker</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/git/">git</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/java/">java</a><span class="category-list-count">25</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/linux/">linux</a><span class="category-list-count">10</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/mysql/">mysql</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/windows/">windows</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">数据结构</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">机器学习</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/">碎碎念</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%A8%8B%E5%BA%8F%E4%BA%BA%E7%94%9F/">程序人生</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%AE%97%E6%B3%95/">算法</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%BC%96%E7%A8%8B/">编程</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%BD%91%E7%AB%99%E8%BF%90%E7%BB%B4/">网站运维</a><span class="category-list-count">7</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/">虚拟机</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%97%AE%E9%A2%98/">问题</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%A1%B9%E7%9B%AE/">项目</a><span class="category-list-count">3</span></li></ul>
     </div>
   </div>
 
@@ -1886,7 +1908,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">标签云</h3>
     <div class="widget tagcloud">
-      <a href="/666ahao/tags/BigDecimal/" style="font-size: 10px;">BigDecimal</a> <a href="/666ahao/tags/IDEA/" style="font-size: 10px;">IDEA</a> <a href="/666ahao/tags/IO%E6%B5%81/" style="font-size: 13.33px;">IO流</a> <a href="/666ahao/tags/IO%E6%B5%81%E4%BD%93%E7%B3%BB/" style="font-size: 10px;">IO流体系</a> <a href="/666ahao/tags/List/" style="font-size: 10px;">List</a> <a href="/666ahao/tags/Map%E9%9B%86%E5%90%88/" style="font-size: 10px;">Map集合</a> <a href="/666ahao/tags/NIO/" style="font-size: 10px;">NIO</a> <a href="/666ahao/tags/Queue/" style="font-size: 10px;">Queue</a> <a href="/666ahao/tags/SQLserver/" style="font-size: 10px;">SQLserver</a> <a href="/666ahao/tags/Set%E9%9B%86%E5%90%88/" style="font-size: 10px;">Set集合</a> <a href="/666ahao/tags/String/" style="font-size: 10px;">String</a> <a href="/666ahao/tags/TCP-IP/" style="font-size: 10px;">TCP/IP</a> <a href="/666ahao/tags/Ubuntu/" style="font-size: 10px;">Ubuntu</a> <a href="/666ahao/tags/WSL/" style="font-size: 10px;">WSL</a> <a href="/666ahao/tags/bug%E9%97%AE%E9%A2%98/" style="font-size: 10px;">bug问题</a> <a href="/666ahao/tags/c/" style="font-size: 16.67px;">c</a> <a href="/666ahao/tags/c/" style="font-size: 13.33px;">c++</a> <a href="/666ahao/tags/eladmin/" style="font-size: 10px;">eladmin</a> <a href="/666ahao/tags/equals/" style="font-size: 10px;">equals</a> <a href="/666ahao/tags/ghelper/" style="font-size: 10px;">ghelper</a> <a href="/666ahao/tags/git/" style="font-size: 10px;">git</a> <a href="/666ahao/tags/gitpage/" style="font-size: 10px;">gitpage</a> <a href="/666ahao/tags/hexo-inject/" style="font-size: 10px;">hexo-inject</a> <a href="/666ahao/tags/idea/" style="font-size: 10px;">idea</a> <a href="/666ahao/tags/java/" style="font-size: 20px;">java</a> <a href="/666ahao/tags/java%E5%BC%82%E5%B8%B8/" style="font-size: 10px;">java异常</a> <a href="/666ahao/tags/linux/" style="font-size: 10px;">linux</a> <a href="/666ahao/tags/matery/" style="font-size: 13.33px;">matery</a> <a href="/666ahao/tags/matery%E4%B8%BB%E9%A2%98/" style="font-size: 10px;">matery主题</a> <a href="/666ahao/tags/moneykeeper/" style="font-size: 10px;">moneykeeper</a> <a href="/666ahao/tags/sakura/" style="font-size: 10px;">sakura</a> <a href="/666ahao/tags/ubantu/" style="font-size: 10px;">ubantu</a> <a href="/666ahao/tags/virtualbox%E8%99%9A%E6%8B%9F%E6%9C%BA/" style="font-size: 10px;">virtualbox虚拟机</a> <a href="/666ahao/tags/windows/" style="font-size: 10px;">windows</a> <a href="/666ahao/tags/%E4%B8%8D%E5%8F%AF%E5%8F%98%E7%B1%BB/" style="font-size: 10px;">不可变类</a> <a href="/666ahao/tags/%E4%BA%92%E8%B4%A8/" style="font-size: 10px;">互质</a> <a href="/666ahao/tags/%E4%BC%98%E5%8C%96/" style="font-size: 10px;">优化</a> <a href="/666ahao/tags/%E5%86%85%E9%83%A8%E7%B1%BB/" style="font-size: 10px;">内部类</a> <a href="/666ahao/tags/%E5%88%9D%E5%A7%8B%E5%8C%96%E5%9D%97/" style="font-size: 10px;">初始化块</a> <a href="/666ahao/tags/%E5%8D%95%E4%BE%8B%E7%B1%BB/" style="font-size: 10px;">单例类</a> <a href="/666ahao/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 13.33px;">博客</a> <a href="/666ahao/tags/%E5%8D%9A%E5%AE%A2%E5%9B%AD/" style="font-size: 10px;">博客园</a> <a href="/666ahao/tags/%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/" style="font-size: 10px;">博客简介</a> <a href="/666ahao/tags/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/" style="font-size: 10px;">博客美化</a> <a href="/666ahao/tags/%E5%8F%8D%E5%B0%84/" style="font-size: 10px;">反射</a> <a href="/666ahao/tags/%E5%8F%98%E9%87%8F%E5%88%86%E7%B1%BB/" style="font-size: 10px;">变量分类</a> <a href="/666ahao/tags/%E5%A4%9A%E6%80%81/" style="font-size: 10px;">多态</a> <a href="/666ahao/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/" style="font-size: 16.67px;">多线程</a> <a href="/666ahao/tags/%E5%B7%A5%E5%85%B7%E7%B1%BB/" style="font-size: 10px;">工具类</a> <a href="/666ahao/tags/%E5%BC%80%E6%BA%90/" style="font-size: 10px;">开源</a> <a href="/666ahao/tags/%E6%8A%BD%E8%B1%A1/" style="font-size: 10px;">抽象</a> <a href="/666ahao/tags/%E6%8E%A5%E5%8F%A3/" style="font-size: 13.33px;">接口</a> <a href="/666ahao/tags/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/" style="font-size: 10px;">搜索引擎</a> <a href="/666ahao/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 10px;">数据结构</a> <a href="/666ahao/tags/%E6%9C%80%E5%B0%8F%E5%85%AC%E5%80%8D%E6%95%B0/" style="font-size: 10px;">最小公倍数</a> <a href="/666ahao/tags/%E6%9E%84%E9%80%A0%E5%99%A8%E9%87%8D%E8%BD%BD/" style="font-size: 10px;">构造器重载</a> <a href="/666ahao/tags/%E6%A0%88/" style="font-size: 10px;">栈</a> <a href="/666ahao/tags/%E6%B3%9B%E5%9E%8B/" style="font-size: 10px;">泛型</a> <a href="/666ahao/tags/%E6%B3%A8%E8%A7%A3/" style="font-size: 10px;">注解</a> <a href="/666ahao/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/" style="font-size: 10px;">浏览器</a> <a href="/666ahao/tags/%E7%96%AB%E6%83%85/" style="font-size: 10px;">疫情</a> <a href="/666ahao/tags/%E7%AE%97%E6%B3%95/" style="font-size: 10px;">算法</a> <a href="/666ahao/tags/%E7%AE%97%E6%B3%95%E5%A4%8D%E6%9D%82%E5%BA%A6/" style="font-size: 10px;">算法复杂度</a> <a href="/666ahao/tags/%E7%B1%BB%E5%8A%A0%E8%BD%BD/" style="font-size: 10px;">类加载</a> <a href="/666ahao/tags/%E7%BA%BF%E7%A8%8B%E6%B1%A0/" style="font-size: 10px;">线程池</a> <a href="/666ahao/tags/%E7%BA%BF%E7%A8%8B%E9%80%9A%E4%BF%A1/" style="font-size: 10px;">线程通信</a> <a href="/666ahao/tags/%E7%BB%84%E5%90%88/" style="font-size: 10px;">组合</a> <a href="/666ahao/tags/%E7%BB%A7%E6%89%BF/" style="font-size: 10px;">继承</a> <a href="/666ahao/tags/%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%9E%8B/" style="font-size: 10px;">网络模型</a> <a href="/666ahao/tags/%E7%BE%8E%E5%8C%96/" style="font-size: 10px;">美化</a> <a href="/666ahao/tags/%E8%87%AA%E5%8A%A8%E8%A3%85%E6%8B%86%E7%AE%B1/" style="font-size: 10px;">自动装拆箱</a> <a href="/666ahao/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" style="font-size: 10px;">计算机网络</a> <a href="/666ahao/tags/%E8%AF%AD%E6%B3%95/" style="font-size: 10px;">语法</a> <a href="/666ahao/tags/%E9%80%92%E6%8E%A8/" style="font-size: 10px;">递推</a> <a href="/666ahao/tags/%E9%81%8D%E5%8E%86%E9%9B%86%E5%90%88/" style="font-size: 10px;">遍历集合</a> <a href="/666ahao/tags/%E9%97%AE%E9%A2%98/" style="font-size: 13.33px;">问题</a> <a href="/666ahao/tags/%E9%98%9F%E5%88%97/" style="font-size: 10px;">队列</a> <a href="/666ahao/tags/%E9%9B%86%E5%90%88/" style="font-size: 13.33px;">集合</a> <a href="/666ahao/tags/%E9%9B%86%E5%90%88%E7%B1%BB/" style="font-size: 10px;">集合类</a> <a href="/666ahao/tags/%E9%9D%99%E6%80%81%E5%88%9D%E5%A7%8B%E5%8C%96%E5%9D%97/" style="font-size: 10px;">静态初始化块</a> <a href="/666ahao/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/" style="font-size: 10px;">面向对象</a> <a href="/666ahao/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/" style="font-size: 10px;">音乐播放器</a> <a href="/666ahao/tags/%E9%A1%B9%E7%9B%AE/" style="font-size: 10px;">项目</a>
+      <a href="/tags/BigDecimal/" style="font-size: 10px;">BigDecimal</a> <a href="/tags/IDEA/" style="font-size: 10px;">IDEA</a> <a href="/tags/IO%E6%B5%81/" style="font-size: 13.33px;">IO流</a> <a href="/tags/IO%E6%B5%81%E4%BD%93%E7%B3%BB/" style="font-size: 10px;">IO流体系</a> <a href="/tags/List/" style="font-size: 10px;">List</a> <a href="/tags/Map%E9%9B%86%E5%90%88/" style="font-size: 10px;">Map集合</a> <a href="/tags/NIO/" style="font-size: 10px;">NIO</a> <a href="/tags/Queue/" style="font-size: 10px;">Queue</a> <a href="/tags/SQLserver/" style="font-size: 10px;">SQLserver</a> <a href="/tags/Set%E9%9B%86%E5%90%88/" style="font-size: 10px;">Set集合</a> <a href="/tags/String/" style="font-size: 10px;">String</a> <a href="/tags/TCP-IP/" style="font-size: 10px;">TCP/IP</a> <a href="/tags/Ubuntu/" style="font-size: 10px;">Ubuntu</a> <a href="/tags/WSL/" style="font-size: 10px;">WSL</a> <a href="/tags/bug%E9%97%AE%E9%A2%98/" style="font-size: 10px;">bug问题</a> <a href="/tags/c/" style="font-size: 16.67px;">c</a> <a href="/tags/c/" style="font-size: 13.33px;">c++</a> <a href="/tags/eladmin/" style="font-size: 10px;">eladmin</a> <a href="/tags/equals/" style="font-size: 10px;">equals</a> <a href="/tags/ghelper/" style="font-size: 10px;">ghelper</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/gitpage/" style="font-size: 10px;">gitpage</a> <a href="/tags/hexo-inject/" style="font-size: 10px;">hexo-inject</a> <a href="/tags/idea/" style="font-size: 10px;">idea</a> <a href="/tags/java/" style="font-size: 20px;">java</a> <a href="/tags/java%E5%BC%82%E5%B8%B8/" style="font-size: 10px;">java异常</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/matery/" style="font-size: 13.33px;">matery</a> <a href="/tags/matery%E4%B8%BB%E9%A2%98/" style="font-size: 10px;">matery主题</a> <a href="/tags/moneykeeper/" style="font-size: 10px;">moneykeeper</a> <a href="/tags/sakura/" style="font-size: 10px;">sakura</a> <a href="/tags/ubantu/" style="font-size: 10px;">ubantu</a> <a href="/tags/virtualbox%E8%99%9A%E6%8B%9F%E6%9C%BA/" style="font-size: 10px;">virtualbox虚拟机</a> <a href="/tags/windows/" style="font-size: 10px;">windows</a> <a href="/tags/%E4%B8%8D%E5%8F%AF%E5%8F%98%E7%B1%BB/" style="font-size: 10px;">不可变类</a> <a href="/tags/%E4%BA%92%E8%B4%A8/" style="font-size: 10px;">互质</a> <a href="/tags/%E4%BC%98%E5%8C%96/" style="font-size: 10px;">优化</a> <a href="/tags/%E5%86%85%E9%83%A8%E7%B1%BB/" style="font-size: 10px;">内部类</a> <a href="/tags/%E5%88%9D%E5%A7%8B%E5%8C%96%E5%9D%97/" style="font-size: 10px;">初始化块</a> <a href="/tags/%E5%8D%95%E4%BE%8B%E7%B1%BB/" style="font-size: 10px;">单例类</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 13.33px;">博客</a> <a href="/tags/%E5%8D%9A%E5%AE%A2%E5%9B%AD/" style="font-size: 10px;">博客园</a> <a href="/tags/%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/" style="font-size: 10px;">博客简介</a> <a href="/tags/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/" style="font-size: 10px;">博客美化</a> <a href="/tags/%E5%8F%8D%E5%B0%84/" style="font-size: 10px;">反射</a> <a href="/tags/%E5%8F%98%E9%87%8F%E5%88%86%E7%B1%BB/" style="font-size: 10px;">变量分类</a> <a href="/tags/%E5%A4%9A%E6%80%81/" style="font-size: 10px;">多态</a> <a href="/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/" style="font-size: 16.67px;">多线程</a> <a href="/tags/%E5%B7%A5%E5%85%B7%E7%B1%BB/" style="font-size: 10px;">工具类</a> <a href="/tags/%E5%BC%80%E6%BA%90/" style="font-size: 10px;">开源</a> <a href="/tags/%E6%8A%BD%E8%B1%A1/" style="font-size: 10px;">抽象</a> <a href="/tags/%E6%8E%A5%E5%8F%A3/" style="font-size: 13.33px;">接口</a> <a href="/tags/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/" style="font-size: 10px;">搜索引擎</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 10px;">数据结构</a> <a href="/tags/%E6%9C%80%E5%B0%8F%E5%85%AC%E5%80%8D%E6%95%B0/" style="font-size: 10px;">最小公倍数</a> <a href="/tags/%E6%9E%84%E9%80%A0%E5%99%A8%E9%87%8D%E8%BD%BD/" style="font-size: 10px;">构造器重载</a> <a href="/tags/%E6%A0%88/" style="font-size: 10px;">栈</a> <a href="/tags/%E6%B3%9B%E5%9E%8B/" style="font-size: 10px;">泛型</a> <a href="/tags/%E6%B3%A8%E8%A7%A3/" style="font-size: 10px;">注解</a> <a href="/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/" style="font-size: 10px;">浏览器</a> <a href="/tags/%E7%96%AB%E6%83%85/" style="font-size: 10px;">疫情</a> <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 10px;">算法</a> <a href="/tags/%E7%AE%97%E6%B3%95%E5%A4%8D%E6%9D%82%E5%BA%A6/" style="font-size: 10px;">算法复杂度</a> <a href="/tags/%E7%B1%BB%E5%8A%A0%E8%BD%BD/" style="font-size: 10px;">类加载</a> <a href="/tags/%E7%BA%BF%E7%A8%8B%E6%B1%A0/" style="font-size: 10px;">线程池</a> <a href="/tags/%E7%BA%BF%E7%A8%8B%E9%80%9A%E4%BF%A1/" style="font-size: 10px;">线程通信</a> <a href="/tags/%E7%BB%84%E5%90%88/" style="font-size: 10px;">组合</a> <a href="/tags/%E7%BB%A7%E6%89%BF/" style="font-size: 10px;">继承</a> <a href="/tags/%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%9E%8B/" style="font-size: 10px;">网络模型</a> <a href="/tags/%E7%BE%8E%E5%8C%96/" style="font-size: 10px;">美化</a> <a href="/tags/%E8%87%AA%E5%8A%A8%E8%A3%85%E6%8B%86%E7%AE%B1/" style="font-size: 10px;">自动装拆箱</a> <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" style="font-size: 10px;">计算机网络</a> <a href="/tags/%E8%AF%AD%E6%B3%95/" style="font-size: 10px;">语法</a> <a href="/tags/%E9%80%92%E6%8E%A8/" style="font-size: 10px;">递推</a> <a href="/tags/%E9%81%8D%E5%8E%86%E9%9B%86%E5%90%88/" style="font-size: 10px;">遍历集合</a> <a href="/tags/%E9%97%AE%E9%A2%98/" style="font-size: 13.33px;">问题</a> <a href="/tags/%E9%98%9F%E5%88%97/" style="font-size: 10px;">队列</a> <a href="/tags/%E9%9B%86%E5%90%88/" style="font-size: 13.33px;">集合</a> <a href="/tags/%E9%9B%86%E5%90%88%E7%B1%BB/" style="font-size: 10px;">集合类</a> <a href="/tags/%E9%9D%99%E6%80%81%E5%88%9D%E5%A7%8B%E5%8C%96%E5%9D%97/" style="font-size: 10px;">静态初始化块</a> <a href="/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/" style="font-size: 10px;">面向对象</a> <a href="/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/" style="font-size: 10px;">音乐播放器</a> <a href="/tags/%E9%A1%B9%E7%9B%AE/" style="font-size: 10px;">项目</a>
     </div>
   </div>
 
@@ -1896,7 +1918,7 @@
     <h3 class="widget-title">归档</h3>
 
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2024/01/">一月 2024</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2023/12/">十二月 2023</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2023/11/">十一月 2023</a><span class="archive-list-count">9</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2023/10/">十月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2023/07/">七月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2023/03/">三月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2023/02/">二月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2022/02/">二月 2022</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2021/11/">十一月 2021</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2021/09/">九月 2021</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2021/02/">二月 2021</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2021/01/">一月 2021</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/11/">十一月 2020</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/10/">十月 2020</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/09/">九月 2020</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/08/">八月 2020</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/07/">七月 2020</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/06/">六月 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/05/">五月 2020</a><span class="archive-list-count">9</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/04/">四月 2020</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/03/">三月 2020</a><span class="archive-list-count">1</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/01/">一月 2024</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/12/">十二月 2023</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/11/">十一月 2023</a><span class="archive-list-count">9</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/10/">十月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/07/">七月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/03/">三月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/02/">二月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/02/">二月 2022</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/11/">十一月 2021</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/09/">九月 2021</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/02/">二月 2021</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/01/">一月 2021</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/11/">十一月 2020</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/10/">十月 2020</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/09/">九月 2020</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/08/">八月 2020</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/07/">七月 2020</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/06/">六月 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/">五月 2020</a><span class="archive-list-count">9</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">四月 2020</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">三月 2020</a><span class="archive-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -1909,17 +1931,17 @@
     </div>
     <!-- <nav id="mobile-nav">
   
-    <a href="/666ahao/" class="mobile-nav-link">Home</a>
+    <a href="/" class="mobile-nav-link">Home</a>
   
-    <a href="/666ahao/archives" class="mobile-nav-link">Archives</a>
+    <a href="/archives" class="mobile-nav-link">Archives</a>
   
-    <a href="/666ahao/categories" class="mobile-nav-link">Categories</a>
+    <a href="/categories" class="mobile-nav-link">Categories</a>
   
-    <a href="/666ahao/tags" class="mobile-nav-link">Tags</a>
+    <a href="/tags" class="mobile-nav-link">Tags</a>
   
-    <a href="/666ahao/about" class="mobile-nav-link">About</a>
+    <a href="/about" class="mobile-nav-link">About</a>
   
-    <a href="/666ahao/friends" class="mobile-nav-link">Friends</a>
+    <a href="/friends" class="mobile-nav-link">Friends</a>
   
 </nav> -->
     <footer id="footer" class="site-footer">
@@ -1953,6 +1975,9 @@
 
 
     <!-- headerblur min height -->
+    
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>
@@ -1994,21 +2019,21 @@
 
 
   
-<link rel="stylesheet" href="/666ahao/fancybox/jquery.fancybox.css">
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
 
   
-<script src="/666ahao/fancybox/jquery.fancybox.pack.js"></script>
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
 
 
 
 
-<script src="/666ahao/js/script.js"></script>
+<script src="/js/script.js"></script>
 
 
-<script src="/666ahao/js/bootstrap.js"></script>
+<script src="/js/bootstrap.js"></script>
 
 
-<script src="/666ahao/js/main.js"></script>
+<script src="/js/main.js"></script>
 
 
 

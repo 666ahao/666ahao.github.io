@@ -14,7 +14,7 @@
   <meta name="description" content="已经5月份了，国内的疫情也渐渐的好转，人们也把目光放在了经济发展和工作上，拿着漫长的疫情期间，编程界有什么波动呢？  据tiobe官网5月份最新数据显示，C语言在疫情结束后悄悄地登上排行第一位，这是继2015java霸着冠军宝座以来，c语言重新闪耀它的魅力。来看看数据：">
 <meta property="og:type" content="article">
 <meta property="og:title" content="疫情之下c又崛起！">
-<meta property="og:url" content="https://666ahao.github.io/666ahao/2020/0510/index.html">
+<meta property="og:url" content="https://666ahao.github.io/2020/0510/index.html">
 <meta property="og:site_name" content="Zblog">
 <meta property="og:description" content="已经5月份了，国内的疫情也渐渐的好转，人们也把目光放在了经济发展和工作上，拿着漫长的疫情期间，编程界有什么波动呢？  据tiobe官网5月份最新数据显示，C语言在疫情结束后悄悄地登上排行第一位，这是继2015java霸着冠军宝座以来，c语言重新闪耀它的魅力。来看看数据：">
 <meta property="og:locale" content="zh_CN">
@@ -29,7 +29,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://img-blog.csdnimg.cn/20200510071549355.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0dvYnVsbGlu,size_16,color_FFFFFF,t_70#pic_center">
   
-  <link rel="icon" href="/666ahao/css/images/favicon.ico">
+  <link rel="icon" href="/css/images/favicon.ico">
   
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
@@ -44,19 +44,19 @@
 
   <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
   
-<link rel="stylesheet" href="/666ahao/css/style.css">
+<link rel="stylesheet" href="/css/style.css">
 
 
   
-<script src="/666ahao/js/jquery-3.1.1.min.js"></script>
+<script src="/js/jquery-3.1.1.min.js"></script>
 
 
   <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="/666ahao/css/bootstrap.css" >
-  <link rel="stylesheet" href="/666ahao/css/fashion.css" >
-  <link rel="stylesheet" href="/666ahao/css/glyphs.css" >
+  <link rel="stylesheet" href="/css/bootstrap.css" >
+  <link rel="stylesheet" href="/css/fashion.css" >
+  <link rel="stylesheet" href="/css/glyphs.css" >
 
-<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/666ahao/atom.xml" title="Zblog" type="application/atom+xml">
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Zblog" type="application/atom+xml">
 </head>
 
 
@@ -65,16 +65,38 @@
 
 
   
+  
+  <div class="site-header-image">
+    <img id="originBg" width="100%" alt="Hike News" src="">
+  </div>
+
+  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
+    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
+  </div>
+
+  <script>
+        var imgUrls = "css/images/pose01.jpg,https://source.unsplash.com/collection/954550/1920x1080,https://source.unsplash.com/collection/954550/1920x1081".split(",");
+        var random = Math.floor((Math.random() * imgUrls.length ));
+        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+          document.getElementById("originBg").src=imgUrls[random];
+          document.getElementById("blurBg").src=imgUrls[random];
+        } else {
+          document.getElementById("originBg").src='/' + imgUrls[random];
+          document.getElementById("blurBg").src='/' + imgUrls[random];
+        }
+    </script>
+
+
 
 
 <header id="allheader" class="site-header" role="banner" 
-   >
+   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.3);"  >
   <div class="clearfix container">
       <div class="site-branding">
 
           <h1 class="site-title">
             
-              <a href="/666ahao/" title="Zblog" rel="home"> Zblog </a>
+              <a href="/" title="Zblog" rel="home"> Zblog </a>
             
           </h1>
           
@@ -89,17 +111,17 @@
             <div class="clearfix sf-menu">
               <ul id="main-nav" class="menu sf-js-enabled sf-arrows"  style="touch-action: pan-y;">
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="/"> <a class="" href="/666ahao/">首页</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="/"> <a class="" href="/">首页</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="archives"> <a class="" href="/666ahao/archives">归档</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="archives"> <a class="" href="/archives">归档</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="categories"> <a class="" href="/666ahao/categories">分类</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="categories"> <a class="" href="/categories">分类</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="tags"> <a class="" href="/666ahao/tags">标签</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="tags"> <a class="" href="/tags">标签</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="about"> <a class="" href="/666ahao/about">关于</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="about"> <a class="" href="/about">关于</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="friends"> <a class="" href="/666ahao/friends">友链</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="friends"> <a class="" href="/friends">友链</a> </li>
                     
               </ul>
             </div>
@@ -131,13 +153,13 @@
     
     <div class="article-meta">
       
-	<a href="/666ahao/2020/0510/" class="article-date">
+	<a href="/2020/0510/" class="article-date">
 	  <time datetime="2020-05-09T23:26:56.000Z" itemprop="datePublished">五月 10, 2020</time>
 	</a>
 
       
 	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/666ahao/categories/c-c/">c/c++</a>
+    <a class="article-category-link" href="/categories/c-c/">c/c++</a>
  
       
 	<span id="busuanzi_container_page_pv">
@@ -170,11 +192,11 @@
     <footer class="entry-meta entry-footer">
       
 	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/666ahao/categories/c-c/">c/c++</a>
+    <a class="article-category-link" href="/categories/c-c/">c/c++</a>
 
       
   <span class="ico-tags"></span>
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/666ahao/tags/c/" rel="tag">c</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/666ahao/tags/%E7%96%AB%E6%83%85/" rel="tag">疫情</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/c/" rel="tag">c</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%96%AB%E6%83%85/" rel="tag">疫情</a></li></ul>
 
       
         
@@ -209,7 +231,7 @@
     
 <nav id="article-nav">
   
-    <a href="/666ahao/2020/0514/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2020/0514/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">上一篇</strong>
       <div class="article-nav-title">
         
@@ -219,7 +241,7 @@
     </a>
   
   
-    <a href="/666ahao/2020/0509/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2020/0509/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">下一篇</strong>
       <div class="article-nav-title">java equals()函数与‘==&#39;</div>
     </a>
@@ -246,17 +268,17 @@
     </div>
     <!-- <nav id="mobile-nav">
   
-    <a href="/666ahao/" class="mobile-nav-link">Home</a>
+    <a href="/" class="mobile-nav-link">Home</a>
   
-    <a href="/666ahao/archives" class="mobile-nav-link">Archives</a>
+    <a href="/archives" class="mobile-nav-link">Archives</a>
   
-    <a href="/666ahao/categories" class="mobile-nav-link">Categories</a>
+    <a href="/categories" class="mobile-nav-link">Categories</a>
   
-    <a href="/666ahao/tags" class="mobile-nav-link">Tags</a>
+    <a href="/tags" class="mobile-nav-link">Tags</a>
   
-    <a href="/666ahao/about" class="mobile-nav-link">About</a>
+    <a href="/about" class="mobile-nav-link">About</a>
   
-    <a href="/666ahao/friends" class="mobile-nav-link">Friends</a>
+    <a href="/friends" class="mobile-nav-link">Friends</a>
   
 </nav> -->
     <footer id="footer" class="site-footer">
@@ -290,6 +312,9 @@
 
 
     <!-- headerblur min height -->
+    
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>
@@ -331,21 +356,21 @@
 
 
   
-<link rel="stylesheet" href="/666ahao/fancybox/jquery.fancybox.css">
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
 
   
-<script src="/666ahao/fancybox/jquery.fancybox.pack.js"></script>
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
 
 
 
 
-<script src="/666ahao/js/script.js"></script>
+<script src="/js/script.js"></script>
 
 
-<script src="/666ahao/js/bootstrap.js"></script>
+<script src="/js/bootstrap.js"></script>
 
 
-<script src="/666ahao/js/main.js"></script>
+<script src="/js/main.js"></script>
 
 
 
