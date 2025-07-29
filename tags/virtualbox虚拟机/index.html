@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Tag: virtualbox虚拟机 | Zblog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  
+  
+  
+  <meta name="description" content="珍爱生命，远离大学">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Zblog">
+<meta property="og:url" content="https://666ahao.github.io/666ahao/tags/virtualbox%E8%99%9A%E6%8B%9F%E6%9C%BA/index.html">
+<meta property="og:site_name" content="Zblog">
+<meta property="og:description" content="珍爱生命，远离大学">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="George Zou">
+<meta property="article:tag" content="Zblog">
+<meta property="article:tag" content="沧海一粟">
+<meta property="article:tag" content="江南骚年">
+<meta property="article:tag" content="江南">
+<meta property="article:tag" content="openkit">
+<meta property="article:tag" content="沧海一粟博客">
+<meta name="twitter:card" content="summary">
+  
+  <link rel="icon" href="/666ahao/css/images/favicon.ico">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
+  <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <style type="text/css">
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/l?subset_id=2&fvd=n5) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/l?subset_id=2&fvd=n7) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/l?subset_id=2&fvd=n4) format("woff2");font-weight:lighter;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/d337d8/000000000000000000010095/27/l?subset_id=2&fvd=i4) format("woff2");font-weight:400;font-style:italic;}</style>
+    
+  <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz%3A200%2C300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
+
+  <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
+  
+<link rel="stylesheet" href="/666ahao/css/style.css">
+
+
+  
+<script src="/666ahao/js/jquery-3.1.1.min.js"></script>
+
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/666ahao/css/bootstrap.css" >
+  <link rel="stylesheet" href="/666ahao/css/fashion.css" >
+  <link rel="stylesheet" href="/666ahao/css/glyphs.css" >
+
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/666ahao/atom.xml" title="Zblog" type="application/atom+xml">
+</head>
+
+
+
+  <body>
+
+
+  
+  
+  <div class="site-header-image">
+    <img id="originBg" width="100%" alt="Hike News" src="">
+  </div>
+
+  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
+    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
+  </div>
+
+  <script>
+        var imgUrls = "css/images/pose01.jpg,https://source.unsplash.com/collection/954550/1920x1080,https://source.unsplash.com/collection/954550/1920x1081".split(",");
+        var random = Math.floor((Math.random() * imgUrls.length ));
+        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+          document.getElementById("originBg").src=imgUrls[random];
+          document.getElementById("blurBg").src=imgUrls[random];
+        } else {
+          document.getElementById("originBg").src='/666ahao/' + imgUrls[random];
+          document.getElementById("blurBg").src='/666ahao/' + imgUrls[random];
+        }
+    </script>
+
+
+
+
+<header id="allheader" class="site-header" role="banner" 
+   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.3);"  >
+  <div class="clearfix container">
+      <div class="site-branding">
+
+          <h1 class="site-title">
+            
+              <a href="/666ahao/" title="Zblog" rel="home"> Zblog </a>
+            
+          </h1>
+          
+          
+            <div class="site-description">珍爱生命，远离大学</div>
+          
+            
+          <nav id="main-navigation" class="main-navigation" role="navigation">
+            <a class="nav-open">Menu</a>
+            <a class="nav-close">Close</a>
+
+            <div class="clearfix sf-menu">
+              <ul id="main-nav" class="menu sf-js-enabled sf-arrows"  style="touch-action: pan-y;">
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="/"> <a class="" href="/666ahao/">首页</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="archives"> <a class="" href="/666ahao/archives">归档</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="categories"> <a class="" href="/666ahao/categories">分类</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="tags"> <a class="" href="/666ahao/tags">标签</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="about"> <a class="" href="/666ahao/about">关于</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="friends"> <a class="" href="/666ahao/friends">友链</a> </li>
+                    
+              </ul>
+            </div>
+          </nav>
+
+      </div>
+  </div>
+</header>
+
+
+  <div id="container">
+    <div id="wrap">
+            
+      <div id="content" class="outer">
+        
+          <section id="main">
+  
+  
+  
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <h1><a href="/666ahao/archives/2020" class="archive-year">2020</a></h1>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+
+      <a href="/666ahao/2020/0425/" class="archive-article-date">
+		  <time datetime="2020-04-25T04:43:02.000Z" itemprop="datePublished">4月 25, 2020</time>
+	  </a>
+      
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="archive-article-title" href="/666ahao/2020/0425/">virtualbox虚拟机安装</a>
+    </h1>
+  
+
+    </header>
+  </div>
+</article>
+  
+  
+    </div></section>
+  
+
+
+</section>
+          <aside id="sidebar">
+  
+    <div style="margin: 20px 0;">
+	<div id="search-form-wrap">
+
+    <form class="search-form">
+        <label style="width: 72%;">
+            <span class="screen-reader-text">Search for:</span>
+            <input type="search" class="search-field" style="height: 36px; width: 100%;" placeholder=" 搜索…" value="" name="s" title="Search for:">
+        </label>
+        <input type="submit" class="search-form-submit" value="搜索">
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+            UNTITLED: '(无标题)',
+        },
+        ROOT_URL: '/666ahao/',
+        CONTENT_URL: '/666ahao/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="/666ahao/js/insight.js"></script>
+
+
+</div>
+</div>
+  
+    
+
+  
+    
+  <div class="widget_athemes_tabs">
+    <ul id="widget-tab" class="clearfix widget-tab-nav">
+      <li class="active"><a>最新文章</a></li>
+    </ul>
+    <div class="widget">
+      <ul>
+        
+          <li class="clearfix">
+
+            
+              <div class="widget-entry-summary" style="margin: 0;">
+            
+
+              <h6 style="margin: 0;"><a href="/666ahao/2024/0118/">SpringBoot原理解析</a></h6>
+              <span>一月 18, 2024</span>
+            </div>
+
+          </li>
+        
+          <li class="clearfix">
+
+            
+              <div class="widget-entry-summary" style="margin: 0;">
+            
+
+              <h6 style="margin: 0;"><a href="/666ahao/2023/1231/">Spring入门</a></h6>
+              <span>十二月 31, 2023</span>
+            </div>
+
+          </li>
+        
+          <li class="clearfix">
+
+            
+              <div class="widget-entry-summary" style="margin: 0;">
+            
+
+              <h6 style="margin: 0;"><a href="/666ahao/2023/1225/">mybatisplus入门</a></h6>
+              <span>十二月 25, 2023</span>
+            </div>
+
+          </li>
+        
+          <li class="clearfix">
+
+            
+              <div class="widget-entry-summary" style="margin: 0;">
+            
+
+              <h6 style="margin: 0;"><a href="/666ahao/2023/1215/">MySQL入门</a></h6>
+              <span>十二月 15, 2023</span>
+            </div>
+
+          </li>
+        
+          <li class="clearfix">
+
+            
+              <div class="widget-entry-summary" style="margin: 0;">
+            
+
+              <h6 style="margin: 0;"><a href="/666ahao/2023/1211/">linux正则表达式与三剑客</a></h6>
+              <span>十二月 11, 2023</span>
+            </div>
+
+          </li>
+        
+          <li class="clearfix">
+
+            
+              <div class="widget-entry-summary" style="margin: 0;">
+            
+
+              <h6 style="margin: 0;"><a href="/666ahao/2023/1201/">Git入门</a></h6>
+              <span>十二月 1, 2023</span>
+            </div>
+
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">分类</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/IDE/">IDE</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/Java/">Java</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/SQL/">SQL</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/c-c/">c/c++</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/docker/">docker</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/git/">git</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/java/">java</a><span class="category-list-count">25</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/linux/">linux</a><span class="category-list-count">10</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/mysql/">mysql</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/windows/">windows</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">数据结构</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">机器学习</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/">碎碎念</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E7%A8%8B%E5%BA%8F%E4%BA%BA%E7%94%9F/">程序人生</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E7%AE%97%E6%B3%95/">算法</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E7%BC%96%E7%A8%8B/">编程</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E7%BD%91%E7%AB%99%E8%BF%90%E7%BB%B4/">网站运维</a><span class="category-list-count">7</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/">虚拟机</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E9%97%AE%E9%A2%98/">问题</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/666ahao/categories/%E9%A1%B9%E7%9B%AE/">项目</a><span class="category-list-count">3</span></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/666ahao/tags/BigDecimal/" style="font-size: 10px;">BigDecimal</a> <a href="/666ahao/tags/IDEA/" style="font-size: 10px;">IDEA</a> <a href="/666ahao/tags/IO%E6%B5%81/" style="font-size: 13.33px;">IO流</a> <a href="/666ahao/tags/IO%E6%B5%81%E4%BD%93%E7%B3%BB/" style="font-size: 10px;">IO流体系</a> <a href="/666ahao/tags/List/" style="font-size: 10px;">List</a> <a href="/666ahao/tags/Map%E9%9B%86%E5%90%88/" style="font-size: 10px;">Map集合</a> <a href="/666ahao/tags/NIO/" style="font-size: 10px;">NIO</a> <a href="/666ahao/tags/Queue/" style="font-size: 10px;">Queue</a> <a href="/666ahao/tags/SQLserver/" style="font-size: 10px;">SQLserver</a> <a href="/666ahao/tags/Set%E9%9B%86%E5%90%88/" style="font-size: 10px;">Set集合</a> <a href="/666ahao/tags/String/" style="font-size: 10px;">String</a> <a href="/666ahao/tags/TCP-IP/" style="font-size: 10px;">TCP/IP</a> <a href="/666ahao/tags/Ubuntu/" style="font-size: 10px;">Ubuntu</a> <a href="/666ahao/tags/WSL/" style="font-size: 10px;">WSL</a> <a href="/666ahao/tags/bug%E9%97%AE%E9%A2%98/" style="font-size: 10px;">bug问题</a> <a href="/666ahao/tags/c/" style="font-size: 16.67px;">c</a> <a href="/666ahao/tags/c/" style="font-size: 13.33px;">c++</a> <a href="/666ahao/tags/eladmin/" style="font-size: 10px;">eladmin</a> <a href="/666ahao/tags/equals/" style="font-size: 10px;">equals</a> <a href="/666ahao/tags/ghelper/" style="font-size: 10px;">ghelper</a> <a href="/666ahao/tags/git/" style="font-size: 10px;">git</a> <a href="/666ahao/tags/gitpage/" style="font-size: 10px;">gitpage</a> <a href="/666ahao/tags/hexo-inject/" style="font-size: 10px;">hexo-inject</a> <a href="/666ahao/tags/idea/" style="font-size: 10px;">idea</a> <a href="/666ahao/tags/java/" style="font-size: 20px;">java</a> <a href="/666ahao/tags/java%E5%BC%82%E5%B8%B8/" style="font-size: 10px;">java异常</a> <a href="/666ahao/tags/linux/" style="font-size: 10px;">linux</a> <a href="/666ahao/tags/matery/" style="font-size: 13.33px;">matery</a> <a href="/666ahao/tags/matery%E4%B8%BB%E9%A2%98/" style="font-size: 10px;">matery主题</a> <a href="/666ahao/tags/moneykeeper/" style="font-size: 10px;">moneykeeper</a> <a href="/666ahao/tags/sakura/" style="font-size: 10px;">sakura</a> <a href="/666ahao/tags/ubantu/" style="font-size: 10px;">ubantu</a> <a href="/666ahao/tags/virtualbox%E8%99%9A%E6%8B%9F%E6%9C%BA/" style="font-size: 10px;">virtualbox虚拟机</a> <a href="/666ahao/tags/windows/" style="font-size: 10px;">windows</a> <a href="/666ahao/tags/%E4%B8%8D%E5%8F%AF%E5%8F%98%E7%B1%BB/" style="font-size: 10px;">不可变类</a> <a href="/666ahao/tags/%E4%BA%92%E8%B4%A8/" style="font-size: 10px;">互质</a> <a href="/666ahao/tags/%E4%BC%98%E5%8C%96/" style="font-size: 10px;">优化</a> <a href="/666ahao/tags/%E5%86%85%E9%83%A8%E7%B1%BB/" style="font-size: 10px;">内部类</a> <a href="/666ahao/tags/%E5%88%9D%E5%A7%8B%E5%8C%96%E5%9D%97/" style="font-size: 10px;">初始化块</a> <a href="/666ahao/tags/%E5%8D%95%E4%BE%8B%E7%B1%BB/" style="font-size: 10px;">单例类</a> <a href="/666ahao/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 13.33px;">博客</a> <a href="/666ahao/tags/%E5%8D%9A%E5%AE%A2%E5%9B%AD/" style="font-size: 10px;">博客园</a> <a href="/666ahao/tags/%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/" style="font-size: 10px;">博客简介</a> <a href="/666ahao/tags/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/" style="font-size: 10px;">博客美化</a> <a href="/666ahao/tags/%E5%8F%8D%E5%B0%84/" style="font-size: 10px;">反射</a> <a href="/666ahao/tags/%E5%8F%98%E9%87%8F%E5%88%86%E7%B1%BB/" style="font-size: 10px;">变量分类</a> <a href="/666ahao/tags/%E5%A4%9A%E6%80%81/" style="font-size: 10px;">多态</a> <a href="/666ahao/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/" style="font-size: 16.67px;">多线程</a> <a href="/666ahao/tags/%E5%B7%A5%E5%85%B7%E7%B1%BB/" style="font-size: 10px;">工具类</a> <a href="/666ahao/tags/%E5%BC%80%E6%BA%90/" style="font-size: 10px;">开源</a> <a href="/666ahao/tags/%E6%8A%BD%E8%B1%A1/" style="font-size: 10px;">抽象</a> <a href="/666ahao/tags/%E6%8E%A5%E5%8F%A3/" style="font-size: 13.33px;">接口</a> <a href="/666ahao/tags/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/" style="font-size: 10px;">搜索引擎</a> <a href="/666ahao/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 10px;">数据结构</a> <a href="/666ahao/tags/%E6%9C%80%E5%B0%8F%E5%85%AC%E5%80%8D%E6%95%B0/" style="font-size: 10px;">最小公倍数</a> <a href="/666ahao/tags/%E6%9E%84%E9%80%A0%E5%99%A8%E9%87%8D%E8%BD%BD/" style="font-size: 10px;">构造器重载</a> <a href="/666ahao/tags/%E6%A0%88/" style="font-size: 10px;">栈</a> <a href="/666ahao/tags/%E6%B3%9B%E5%9E%8B/" style="font-size: 10px;">泛型</a> <a href="/666ahao/tags/%E6%B3%A8%E8%A7%A3/" style="font-size: 10px;">注解</a> <a href="/666ahao/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/" style="font-size: 10px;">浏览器</a> <a href="/666ahao/tags/%E7%96%AB%E6%83%85/" style="font-size: 10px;">疫情</a> <a href="/666ahao/tags/%E7%AE%97%E6%B3%95/" style="font-size: 10px;">算法</a> <a href="/666ahao/tags/%E7%AE%97%E6%B3%95%E5%A4%8D%E6%9D%82%E5%BA%A6/" style="font-size: 10px;">算法复杂度</a> <a href="/666ahao/tags/%E7%B1%BB%E5%8A%A0%E8%BD%BD/" style="font-size: 10px;">类加载</a> <a href="/666ahao/tags/%E7%BA%BF%E7%A8%8B%E6%B1%A0/" style="font-size: 10px;">线程池</a> <a href="/666ahao/tags/%E7%BA%BF%E7%A8%8B%E9%80%9A%E4%BF%A1/" style="font-size: 10px;">线程通信</a> <a href="/666ahao/tags/%E7%BB%84%E5%90%88/" style="font-size: 10px;">组合</a> <a href="/666ahao/tags/%E7%BB%A7%E6%89%BF/" style="font-size: 10px;">继承</a> <a href="/666ahao/tags/%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%9E%8B/" style="font-size: 10px;">网络模型</a> <a href="/666ahao/tags/%E7%BE%8E%E5%8C%96/" style="font-size: 10px;">美化</a> <a href="/666ahao/tags/%E8%87%AA%E5%8A%A8%E8%A3%85%E6%8B%86%E7%AE%B1/" style="font-size: 10px;">自动装拆箱</a> <a href="/666ahao/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" style="font-size: 10px;">计算机网络</a> <a href="/666ahao/tags/%E8%AF%AD%E6%B3%95/" style="font-size: 10px;">语法</a> <a href="/666ahao/tags/%E9%80%92%E6%8E%A8/" style="font-size: 10px;">递推</a> <a href="/666ahao/tags/%E9%81%8D%E5%8E%86%E9%9B%86%E5%90%88/" style="font-size: 10px;">遍历集合</a> <a href="/666ahao/tags/%E9%97%AE%E9%A2%98/" style="font-size: 13.33px;">问题</a> <a href="/666ahao/tags/%E9%98%9F%E5%88%97/" style="font-size: 10px;">队列</a> <a href="/666ahao/tags/%E9%9B%86%E5%90%88/" style="font-size: 13.33px;">集合</a> <a href="/666ahao/tags/%E9%9B%86%E5%90%88%E7%B1%BB/" style="font-size: 10px;">集合类</a> <a href="/666ahao/tags/%E9%9D%99%E6%80%81%E5%88%9D%E5%A7%8B%E5%8C%96%E5%9D%97/" style="font-size: 10px;">静态初始化块</a> <a href="/666ahao/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/" style="font-size: 10px;">面向对象</a> <a href="/666ahao/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/" style="font-size: 10px;">音乐播放器</a> <a href="/666ahao/tags/%E9%A1%B9%E7%9B%AE/" style="font-size: 10px;">项目</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2024/01/">一月 2024</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2023/12/">十二月 2023</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2023/11/">十一月 2023</a><span class="archive-list-count">9</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2023/10/">十月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2023/07/">七月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2023/03/">三月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2023/02/">二月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2022/02/">二月 2022</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2021/11/">十一月 2021</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2021/09/">九月 2021</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2021/02/">二月 2021</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2021/01/">一月 2021</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/11/">十一月 2020</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/10/">十月 2020</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/09/">九月 2020</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/08/">八月 2020</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/07/">七月 2020</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/06/">六月 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/05/">五月 2020</a><span class="archive-list-count">9</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/04/">四月 2020</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/666ahao/archives/2020/03/">三月 2020</a><span class="archive-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+  
+</aside>
+        
+      </div>
+
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+    <a href="/666ahao/" class="mobile-nav-link">Home</a>
+  
+    <a href="/666ahao/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/666ahao/categories" class="mobile-nav-link">Categories</a>
+  
+    <a href="/666ahao/tags" class="mobile-nav-link">Tags</a>
+  
+    <a href="/666ahao/about" class="mobile-nav-link">About</a>
+  
+    <a href="/666ahao/friends" class="mobile-nav-link">Friends</a>
+  
+</nav> -->
+    <footer id="footer" class="site-footer">
+  
+
+  <div class="clearfix container">
+      <div class="site-info">
+	      &copy; 2020-2025 Zblog All Rights Reserved.
+        
+            <span id="busuanzi_container_site_uv">
+              本站访客数<span id="busuanzi_value_site_uv"></span>人次  
+              本站总访问量<span id="busuanzi_value_site_pv"></span>次
+            </span>
+          
+      </div>
+      <div class="site-credit">
+        Theme by <a href="https://github.com/iTimeTraveler/hexo-theme-hipaper" target="_blank">hipaper</a>
+      </div>
+  </div>
+</footer>
+
+
+<!-- min height -->
+
+<script>
+    var wrapdiv = document.getElementById("wrap");
+    var contentdiv = document.getElementById("content");
+
+    wrapdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
+
+
+    <!-- headerblur min height -->
+    
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
+    
+    
+</script>
+    
+<div style="display: none;">
+  <script src="https://s11.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
+</div>
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  
+<link rel="stylesheet" href="/666ahao/fancybox/jquery.fancybox.css">
+
+  
+<script src="/666ahao/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/666ahao/js/script.js"></script>
+
+
+<script src="/666ahao/js/bootstrap.js"></script>
+
+
+<script src="/666ahao/js/main.js"></script>
+
+
+
+
+
+
+
+
+  <div style="display: none;">
+    <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
+  </div>
+
+
+
+	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	</script>
+
+
+
+
+
+
+  </div>
+
+  <a id="rocket" href="#top" class=""></a>
+  <script type="text/javascript" src="/js/totop.js" async=""></script>
+</body>
+</html>

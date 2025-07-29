@@ -1,0 +1,9 @@
+#hexo robots.txt
+User-agent: * 
+#Crawl-delay:100
+
+Allow: /archives/
+Allow: /categorioes/
+Allow: /about/
+Allow:/sitemap/
+Allow:/contact/
