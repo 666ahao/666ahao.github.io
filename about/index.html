@@ -9,15 +9,15 @@
   
   
   
-  <meta name="description" content="仓促之间换了主题，之前的博客主题是matery，也是我选的第一款博客。选hexo是想在github上搭一搭博客页面，在以往的服务器上搭成本都是比较高的，对一个学生党来说那是几乎不可能得到的，想长期写博客，那就别想了！ 搭建博客的想法在大学之前就有了，但是限于知识视野等各种原因就不了了之。之后是在大学入学后接触了相关网页设计技术才开始自己动手写网页搭博客的，进入大学时有一段过渡期，和高中的状态差不多">
+  <meta name="description" content="&emsp;选hexo是想在github上搭一搭博客页面，在以往的服务器上搭成本都是比较高的，对一个学生党来说那是几乎不可能的，主要还是白嫖好。搭建博客的想法在大学之前就有了，但是限于知识视野等各种原因就不了了之。之后是在大学入学后接触了相关网页设计技术才开始自己动手写网页搭博客的，进入大学时有一段过渡期，和高中的状态差不多，懵懵懂懂，啥也不知道，很天真。本以为学了网页设计html放到服务器上就能">
 <meta property="og:type" content="website">
 <meta property="og:title" content="关于">
 <meta property="og:url" content="https://666ahao.github.io/about/index.html">
 <meta property="og:site_name" content="Zblog">
-<meta property="og:description" content="仓促之间换了主题，之前的博客主题是matery，也是我选的第一款博客。选hexo是想在github上搭一搭博客页面，在以往的服务器上搭成本都是比较高的，对一个学生党来说那是几乎不可能得到的，想长期写博客，那就别想了！ 搭建博客的想法在大学之前就有了，但是限于知识视野等各种原因就不了了之。之后是在大学入学后接触了相关网页设计技术才开始自己动手写网页搭博客的，进入大学时有一段过渡期，和高中的状态差不多">
+<meta property="og:description" content="&emsp;选hexo是想在github上搭一搭博客页面，在以往的服务器上搭成本都是比较高的，对一个学生党来说那是几乎不可能的，主要还是白嫖好。搭建博客的想法在大学之前就有了，但是限于知识视野等各种原因就不了了之。之后是在大学入学后接触了相关网页设计技术才开始自己动手写网页搭博客的，进入大学时有一段过渡期，和高中的状态差不多，懵懵懂懂，啥也不知道，很天真。本以为学了网页设计html放到服务器上就能">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-07-22T23:57:32.000Z">
-<meta property="article:modified_time" content="2023-12-06T02:37:42.000Z">
+<meta property="article:modified_time" content="2025-08-07T03:53:29.172Z">
 <meta property="article:author" content="George Zou">
 <meta property="article:tag" content="Zblog">
 <meta property="article:tag" content="沧海一粟">
@@ -63,10 +63,32 @@
 
 
   
+  
+  <div class="site-header-image">
+    <img id="originBg" width="100%" alt="Hike News" src="">
+  </div>
+
+  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
+    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
+  </div>
+<!--
+  <script>
+        var imgUrls = "images/pose01.jpg".split(",");
+        var random = Math.floor((Math.random() * imgUrls.length ));
+        if (imgUrls[random].startsWith('https') || imgUrls[random].indexOf('://') >= 0) {
+          document.getElementById("originBg").src=imgUrls[random];
+          document.getElementById("blurBg").src=imgUrls[random];
+        } else {
+          document.getElementById("originBg").src='/' + imgUrls[random];
+          document.getElementById("blurBg").src='/' + imgUrls[random];
+        }
+    </script>
+-->
+
 
 
 <header id="allheader" class="site-header" role="banner" 
-   >
+   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.3);"  >
   <div class="clearfix container">
       <div class="site-branding">
 
@@ -136,32 +158,22 @@
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p>仓促之间换了主题，之前的博客主题是matery，也是我选的第一款博客。选hexo是想在github上搭一搭博客页面，在以往的服务器上搭成本都是比较高的，对一个学生党来说那是几乎不可能得到的，想长期写博客，那就别想了！</p>
-<p>搭建博客的想法在大学之前就有了，但是限于知识视野等各种原因就不了了之。之后是在大学入学后接触了相关网页设计技术才开始自己动手写网页搭博客的，进入大学时有一段<code>过渡期</code>，和高中的状态差不多，懵懵懂懂，啥也不知道，很天真。本以为学了网页设计<code>html</code>放到服务器上就能搭博客了，发现并不是，而且最开始写的网页杂乱无章，命名都不会，不知道<code>index.html</code>能解析成主页。</p>
-<p>之后经过了一段时间的探索，找到了github，借助github完成了第一款博客matery，之所以用matery，看中的就是它华丽的布局和推送统计功能，不过用了一年了，发现它有一些缺点。比如过于华丽浮夸的渲染，导致页面加载费劲，一些脚本功能运行不稳定；用到了大量的景物图片用来渲染<code>post</code>卡片，有20多张图片，这些图片不知道是不是作者的个人喜好加进去的，反正打开博客就是图片瀑布流，觉得也不是很好看，其中不免还有重复的，它是根据文章标题计算hash值并对图片数量求余最后取绝对值来选择图片的。</p>
-<p>最终总结就是，虽然页面很精美华丽，还有众多图片，但是网站的性能和浮夸的渲染不可兼得，况且还有大量的图片，网站的更新维护成本只会更多，一个友情链接本来就是一个链接的事，结果渲染成了卡片，往后自定义都是个问题。不过以上归为个人观点，不喜勿喷！总的所以换成了Next主题，对博客的观点也变了，不再追求精美的页面了，更加注重于博客的文章质量和归档。简洁大气也是一个不错的选择，我也发现一些国内外的技术大牛的博客并不是十分华丽，相反很简洁，并且内容丰富质量很高，他们不时把自己的想法和生活放在自己的博客展示给大家，甚至还放一些论文，涉及面非常广，也就把我的原有观念直接冲击掉了。</p>
-<p>这是经过多天努力的结果，这个站点就界面来说，不怎么酷炫。但是是我一直想做的东西，建个人网站，每天可以像发微博一样自由地推送我写好的博客文章。对于<code>maliaoblog.cn</code>站点域名，我很珍惜能拥有它，还是经过自己的不断尝试，一点一点地做出来的！</p>
-<p>我相信还有些人对我的域名感到疑惑，为什么是<code>maliaoblog.cn</code>？为啥叫maliaoblog，域名这么长这么难听，作者不是骚年吗？我要说的是，这是一个mistake！其实我原本想要更换域名的，觉得它不合适，但这是用了一年多的域名了，换的话还要再买。起初选购域名的时候也没有考虑太多，就胡乱买了一个.cn的，认为这样的顶级域名更好，事实上却不是。域名和网站有很大关联，是一个网站文化之一，不仅仅是访客点击打开的一串字母单词，它就像一个人或一本书的名字一样，是有灵魂的。反正我是在这栽了个跟头，最开始就没想这么多，麻了！但是再想想，域名真的很重要吗？</p>
-<p>还是好好写文章吧，有了一个独立的个人主页了，没有广告，没有抄手复制粘贴，可以开始默默地耕耘了！</p>
+        <p>&emsp;选hexo是想在github上搭一搭博客页面，在以往的服务器上搭成本都是比较高的，对一个学生党来说那是几乎不可能的，主要还是白嫖好。搭建博客的想法在大学之前就有了，但是限于知识视野等各种原因就不了了之。之后是在大学入学后接触了相关网页设计技术才开始自己动手写网页搭博客的，进入大学时有一段过渡期，和高中的状态差不多，懵懵懂懂，啥也不知道，很天真。本以为学了网页设计html放到服务器上就能搭博客了，发现并不是，而且最开始写的网页杂乱无章，命名都不会，不知道index能解析成主页。</p>
+<p>&emsp;之后经过了一段时间的探索，找到了github，借助github完成了第一款博客matery。虽然页面很精美华丽，还有众多图片，但是网站性能和浮夸的渲染不可兼得，网站的更新维护麻烦，加载又卡又慢，一个友情链接本来就是一个链接的事，结果渲染成了卡片，往后自定义都是个问题。不过以上归为个人观点，不喜勿喷！</p>
+<p>&emsp;后来换成了Next主题，因为对博客的看法也变了，不再追求精美的页面了，更加注重于博客的文章质量和归档。简洁大气也是一个不错的选择，一些国内外的技术大牛的博客并不是十分华丽，相反很简洁，内容丰富，质量也很高，他们不时把自己的想法和生活放在自己的博客展示给大家，甚至还放一些论文，涉及面非常广，对我影响很大。之后经过苦心寻觅，最终换成了这款Hipaper主题，就界面来说，虽然不怎么酷炫，但是改一改还是很满足要求，以后可以自由地推送文章啦。</p>
 <h4 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h4><ul>
-<li>技术爱好者、乒乓球杀手</li>
-<li>学的宇宙机</li>
-<li>喜欢出去旅行，去过青岛玩</li>
-<li><a href="mailto:&#x77;&#119;&#119;&#49;&#x36;&#x33;&#x7a;&#104;&#64;&#49;&#x36;&#x33;&#46;&#x63;&#111;&#x6d;">www163zh@163.com</a> (联系我)</li>
-<li>职业专长：web&#x2F;Java&#x2F;Linux(专注搬砖)</li>
-<li>本人比较社恐，但不是非常严重</li>
-<li>本人并不是什么技术大牛，不要误解，所以并不是万能的</li>
-<li>邮件联系可以放一段开场白介绍自己，不要一上来就Question</li>
+<li>学的宇宙机和网安，极客兼乒乓球爱好者。</li>
+<li>通常很宅，但是向往自由，喜欢旅行，去过青岛玩（第一次旅行）。</li>
+<li>本人比较社恐，但不是非常严重。</li>
+<li>本人并不是什么技术大牛，所以并不是万能的。</li>
+<li>专长：web&#x2F;Java&#x2F;Linux(专注搬砖)，现在对AI感兴趣。</li>
+<li>邮箱：<a href="mailto:&#x77;&#x77;&#119;&#49;&#54;&#x33;&#122;&#x68;&#x40;&#49;&#x36;&#51;&#x2e;&#99;&#111;&#109;">www163zh@163.com</a></li>
 </ul>
 <h4 id="教育经历"><a href="#教育经历" class="headerlink" title="教育经历"></a>教育经历</h4><ul>
-<li>2023-至今 南昌大学研究生</li>
-<li>2019-2023 河南理工大学</li>
+<li>2023-至今 NCU</li>
+<li>2019-2023 HPU</li>
 </ul>
-<h4 id="获奖经历"><a href="#获奖经历" class="headerlink" title="获奖经历"></a>获奖经历</h4><ul>
-<li>2021全国高校计算机能力挑战赛(华中区域)三等奖</li>
-<li>2021至2022传智杯全国IT技能大赛区域赛优秀奖</li>
-</ul>
-<h4 id="其他经历"><a href="#其他经历" class="headerlink" title="其他经历"></a>其他经历</h4><p>目前暂无其他出彩经历，以后会丰富一些！</p>
+<h4 id="其他经历"><a href="#其他经历" class="headerlink" title="其他经历"></a>其他经历</h4><p>&emsp;目前暂无其他出彩经历，以后会丰富一些！</p>
 
       
     </div>
@@ -393,6 +405,9 @@
 
 
     <!-- headerblur min height -->
+    
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>
