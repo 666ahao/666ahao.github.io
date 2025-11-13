@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>用C语言实现链表 | Zblog</title>
+  <title>用C语言实现链表 | Chou&#39;s blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
   <meta name="keywords" content="c" />
@@ -15,12 +15,12 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="用C语言实现链表">
 <meta property="og:url" content="https://666ahao.github.io/2020/0405/index.html">
-<meta property="og:site_name" content="Zblog">
+<meta property="og:site_name" content="Chou&#39;s blog">
 <meta property="og:description" content="用C语言实现链表，附代码注释这里给已经在学C和数据结构的小伙伴提供一些弹药支持，虽然不知道管不管用，在这里大佬就勿扰了吧！哈哈！">
-<meta property="og:locale" content="zh_CN">
+<meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-04-05T01:40:19.000Z">
 <meta property="article:modified_time" content="2023-08-09T10:19:48.000Z">
-<meta property="article:author" content="George Zou">
+<meta property="article:author" content="Aaron Chou">
 <meta property="article:tag" content="c">
 <meta name="twitter:card" content="summary">
   
@@ -51,7 +51,7 @@
   <link rel="stylesheet" href="/css/fashion.css" >
   <link rel="stylesheet" href="/css/glyphs.css" >
 
-<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Zblog" type="application/atom+xml">
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Chou's blog" type="application/atom+xml">
 </head>
 
 
@@ -69,12 +69,10 @@
 
           <h1 class="site-title">
             
-              <a href="/" title="Zblog" rel="home"> Zblog </a>
+              <a href="/" title="Chou&#39;s blog" rel="home"> Chou&#39;s blog </a>
             
           </h1>
           
-          
-            <div class="site-description">珍爱生命，远离大学</div>
           
             
           <nav id="main-navigation" class="main-navigation" role="navigation">
@@ -84,15 +82,13 @@
             <div class="clearfix sf-menu">
               <ul id="main-nav" class="menu sf-js-enabled sf-arrows"  style="touch-action: pan-y;">
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="/"> <a class="" href="/">首页</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="/"> <a class="" href="/">Home</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="archives"> <a class="" href="/archives">归档</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="archives"> <a class="" href="/archives">Archives</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="categories"> <a class="" href="/categories">分类</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="categories"> <a class="" href="/categories">Categories</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="tags"> <a class="" href="/tags">标签</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="about"> <a class="" href="/about">关于</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="about"> <a class="" href="/about">About</a> </li>
                     
               </ul>
             </div>
@@ -125,7 +121,7 @@
     <div class="article-meta">
       
 	<a href="/2020/0405/" class="article-date">
-	  <time datetime="2020-04-05T01:40:19.000Z" itemprop="datePublished">四月 5, 2020</time>
+	  <time datetime="2020-04-05T01:40:19.000Z" itemprop="datePublished">April 5, 2020</time>
 	</a>
 
       
@@ -198,7 +194,7 @@
 <nav id="article-nav">
   
     <a href="/2020/0406/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">上一篇</strong>
+      <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
           解决执行批处理文件后出现的问题
@@ -208,7 +204,7 @@
   
   
     <a href="/2020/0327/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">下一篇</strong>
+      <strong class="article-nav-caption">Older</strong>
       <div class="article-nav-title">致访客</div>
     </a>
   
@@ -221,7 +217,7 @@
 
   <aside id="sidebar">
     <div id="toc" class="toc-article">
-    <strong class="toc-title">文章目录</strong>
+    <strong class="toc-title">Contents</strong>
     
       <ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%A8C%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%8E%B0%E9%93%BE%E8%A1%A8%EF%BC%8C%E9%99%84%E4%BB%A3%E7%A0%81%E6%B3%A8%E9%87%8A"><span class="nav-number">1.</span> <span class="nav-text">用C语言实现链表，附代码注释</span></a></li></ol>
     
@@ -240,8 +236,6 @@
   
     <a href="/categories" class="mobile-nav-link">Categories</a>
   
-    <a href="/tags" class="mobile-nav-link">Tags</a>
-  
     <a href="/about" class="mobile-nav-link">About</a>
   
 </nav> -->
@@ -250,7 +244,7 @@
 
   <div class="clearfix container">
       <div class="site-info">
-	      &copy; 2020-2025 Zblog All Rights Reserved.
+	      &copy; 2020-2025 Chou&#39;s blog All Rights Reserved.
         
             <span id="busuanzi_container_site_uv">
               本站访客数<span id="busuanzi_value_site_uv"></span>人次  

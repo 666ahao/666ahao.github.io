@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Java-IO流 | Zblog</title>
+  <title>Java-IO流 | Chou&#39;s blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
   <meta name="keywords" content="javaIO流" />
@@ -15,12 +15,12 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Java-IO流">
 <meta property="og:url" content="https://666ahao.github.io/2020/1101/index.html">
-<meta property="og:site_name" content="Zblog">
+<meta property="og:site_name" content="Chou&#39;s blog">
 <meta property="og:description" content="Java-IO流(一)java的IO通过java.io包下的类和接口来支持，在该包下主要有输入、输出两种IO流，每种输出、输入流又可分为字节流和字符流。此外，Java的IO流使用了一种装饰器设计模式，将IO流分成底层节点流和上层处理流，其中节点流用于和物理储存节点直接关联，不同物理节点获取节点流的方式可能有差异，但程序可以把不同物理节点流包装成统一的处理流">
-<meta property="og:locale" content="zh_CN">
+<meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-11-01T09:20:57.000Z">
 <meta property="article:modified_time" content="2023-08-09T10:15:01.000Z">
-<meta property="article:author" content="George Zou">
+<meta property="article:author" content="Aaron Chou">
 <meta property="article:tag" content="java">
 <meta property="article:tag" content="IO流">
 <meta name="twitter:card" content="summary">
@@ -52,7 +52,7 @@
   <link rel="stylesheet" href="/css/fashion.css" >
   <link rel="stylesheet" href="/css/glyphs.css" >
 
-<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Zblog" type="application/atom+xml">
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Chou's blog" type="application/atom+xml">
 </head>
 
 
@@ -70,12 +70,10 @@
 
           <h1 class="site-title">
             
-              <a href="/" title="Zblog" rel="home"> Zblog </a>
+              <a href="/" title="Chou&#39;s blog" rel="home"> Chou&#39;s blog </a>
             
           </h1>
           
-          
-            <div class="site-description">珍爱生命，远离大学</div>
           
             
           <nav id="main-navigation" class="main-navigation" role="navigation">
@@ -85,15 +83,13 @@
             <div class="clearfix sf-menu">
               <ul id="main-nav" class="menu sf-js-enabled sf-arrows"  style="touch-action: pan-y;">
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="/"> <a class="" href="/">首页</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="/"> <a class="" href="/">Home</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="archives"> <a class="" href="/archives">归档</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="archives"> <a class="" href="/archives">Archives</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="categories"> <a class="" href="/categories">分类</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="categories"> <a class="" href="/categories">Categories</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="tags"> <a class="" href="/tags">标签</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="about"> <a class="" href="/about">关于</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="about"> <a class="" href="/about">About</a> </li>
                     
               </ul>
             </div>
@@ -126,7 +122,7 @@
     <div class="article-meta">
       
 	<a href="/2020/1101/" class="article-date">
-	  <time datetime="2020-11-01T09:20:57.000Z" itemprop="datePublished">十一月 1, 2020</time>
+	  <time datetime="2020-11-01T09:20:57.000Z" itemprop="datePublished">November 1, 2020</time>
 	</a>
 
       
@@ -206,7 +202,7 @@
 <nav id="article-nav">
   
     <a href="/2020/1104/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">上一篇</strong>
+      <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
           Java-IO(二)输入输出流体系
@@ -216,7 +212,7 @@
   
   
     <a href="/2020/1021/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">下一篇</strong>
+      <strong class="article-nav-caption">Older</strong>
       <div class="article-nav-title">Java反射篇</div>
     </a>
   
@@ -229,7 +225,7 @@
 
   <aside id="sidebar">
     <div id="toc" class="toc-article">
-    <strong class="toc-title">文章目录</strong>
+    <strong class="toc-title">Contents</strong>
     
       <ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Java-IO%E6%B5%81-%E4%B8%80"><span class="nav-number">1.</span> <span class="nav-text">Java-IO流(一)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#File%E7%B1%BB"><span class="nav-number">2.</span> <span class="nav-text">File类</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E8%AE%BF%E9%97%AE%E6%96%87%E4%BB%B6%E5%92%8C%E7%9B%AE%E5%BD%95"><span class="nav-number">2.1.</span> <span class="nav-text">访问文件和目录</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#%E8%AE%BF%E9%97%AE%E6%96%87%E4%BB%B6%E5%90%8D%E7%9B%B8%E5%85%B3"><span class="nav-number">2.1.1.</span> <span class="nav-text">访问文件名相关</span></a></li></ol></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%87%E4%BB%B6%E8%BF%87%E6%BB%A4%E5%99%A8"><span class="nav-number">3.</span> <span class="nav-text">文件过滤器</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Java%E7%9A%84IO%E6%B5%81"><span class="nav-number">4.</span> <span class="nav-text">Java的IO流</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E6%B5%81"><span class="nav-number">4.1.</span> <span class="nav-text">输入输出流</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%AD%97%E8%8A%82%E6%B5%81%E5%92%8C%E5%AD%97%E7%AC%A6%E6%B5%81"><span class="nav-number">4.2.</span> <span class="nav-text">字节流和字符流</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E8%8A%82%E7%82%B9%E6%B5%81%E5%92%8C%E5%A4%84%E7%90%86%E6%B5%81"><span class="nav-number">4.3.</span> <span class="nav-text">节点流和处理流</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AD%97%E8%8A%82%E6%B5%81%E5%92%8C%E5%AD%97%E7%AC%A6%E6%B5%81-1"><span class="nav-number">5.</span> <span class="nav-text">字节流和字符流</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#InputStream%E5%92%8CReader"><span class="nav-number">5.1.</span> <span class="nav-text">InputStream和Reader</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#OutputStream%E5%92%8CWriter"><span class="nav-number">5.2.</span> <span class="nav-text">OutputStream和Writer</span></a></li></ol></li></ol>
     
@@ -248,8 +244,6 @@
   
     <a href="/categories" class="mobile-nav-link">Categories</a>
   
-    <a href="/tags" class="mobile-nav-link">Tags</a>
-  
     <a href="/about" class="mobile-nav-link">About</a>
   
 </nav> -->
@@ -258,7 +252,7 @@
 
   <div class="clearfix container">
       <div class="site-info">
-	      &copy; 2020-2025 Zblog All Rights Reserved.
+	      &copy; 2020-2025 Chou&#39;s blog All Rights Reserved.
         
             <span id="busuanzi_container_site_uv">
               本站访客数<span id="busuanzi_value_site_uv"></span>人次  
